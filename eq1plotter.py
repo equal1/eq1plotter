@@ -5,6 +5,9 @@ import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import tkinter as tk
+import tkinter.tix as tix
+import re, os, system, csv, getopt, math, commands, csv, types
+import glob, time, shutil, getpass, subprocess, traceback
 
 print('''
         ***************************
