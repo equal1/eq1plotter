@@ -1,5 +1,5 @@
 # Taken from https://github.com/dmnfarrell/pandastable/wiki/Code-Examples
-
+# https://gist.github.com/gugat/7cf57eb628f3bb0a3d54b3f8d0023b63
 from tkinter import *
 from pandastable import Table, TableModel
 

@@ -1,0 +1,4 @@
+For graphical interface the following packages and modules are recommended:
+
+	ipywidget	- to enable jupyter notebook integration
+	tkinter		- to have flexible window configuration
