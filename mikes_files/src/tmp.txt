@@ -1,0 +1,325 @@
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       39    0.000    0.000    0.000    0.000 <string>:8(__new__)
+        1    0.004    0.004    0.029    0.029 CalibrateCorrection.py:1017(scale_sparams_network)
+     3202    0.008    0.000    0.025    0.000 CalibrateCorrection.py:1037(scale_sparameter)
+        1    0.000    0.000    0.000    0.000 CalibrateCorrection.py:1276(get_s21_db_at_freq)
+        2    0.000    0.000    0.000    0.000 CalibrateCorrection.py:1334(get_sparam_data_from_idx)
+        1    0.000    0.000    0.007    0.007 CalibrateCorrection.py:1365(get_sparam_files)
+        1    0.099    0.099    0.298    0.298 CalibrateCorrection.py:147(mwavepy_load_file)
+        1    0.000    0.000    0.006    0.006 CalibrateCorrection.py:1646(get_board_trace_file)
+        1    0.000    0.000    0.000    0.000 CalibrateCorrection.py:1753(get_frequency)
+        1    0.000    0.000    0.339    0.339 CalibrateCorrection.py:1786(calibrate_s21)
+        1    0.000    0.000    0.000    0.000 CalibrateCorrection.py:2074(board_trace_temperature_correction)
+        1    0.012    0.012    0.012    0.012 CalibrateCorrection.py:337(extend_sparam_values)
+        1    0.000    0.000    0.302    0.302 CalibrateCorrection.py:550(mwavepy_read_touchstone)
+        1    0.000    0.000    0.339    0.339 CalibrateCorrection.py:626(calibrate_s21_mwavepy)
+        1    0.000    0.000    0.000    0.000 CalibrateCorrection.py:664(make_freq_range_consistent)
+        1    0.000    0.000    0.000    0.000 CalibrateCorrection.py:723(change_freq_range)
+        5    0.000    0.000    0.000    0.000 CalibrateCorrection.py:753(get_sparam_name)
+        1    0.000    0.000    0.302    0.302 CalibrateCorrection.py:780(load_sparam_files)
+        1    0.000    0.000    0.302    0.302 CalibrateCorrection.py:825(load_sparam_data_from_name)
+        1    0.000    0.000    0.030    0.030 CalibrateCorrection.py:914(cascade_sparams)
+        5    0.000    0.000    0.000    0.000 DVT_Board_Amalfi.py:1004(get_txen_bitnum)
+        5    0.000    0.000    0.000    0.000 DVT_Board_Amalfi.py:1016(update_txen)
+        4    0.000    0.000    0.191    0.048 DVT_Board_Amalfi.py:1089(set_ControlSignals)
+        8    0.000    0.000    0.000    0.000 DVT_Board_Amalfi.py:1171(setup_rffe_control_turn_onoff_enable)
+        4    0.000    0.000    0.159    0.040 DVT_Board_Amalfi.py:1188(setup_rffe_control_mode)
+        4    0.000    0.000    0.039    0.010 DVT_Board_Amalfi.py:1240(write_rffe_setup_trigger)
+        4    0.000    0.000    0.000    0.000 DVT_Board_Amalfi.py:1262(write_rffe_output_trigger)
+        4    0.000    0.000    0.022    0.006 DVT_Board_Amalfi.py:1282(writePACtrlAllSigs)
+        8    0.000    0.000    0.026    0.003 DVT_Board_Amalfi.py:1384(set_clockdiv)
+        8    0.000    0.000    0.027    0.003 DVT_Board_Amalfi.py:1395(set_serial_shift_length)
+       84    0.002    0.000    0.158    0.002 DVT_Board_Amalfi.py:1439(wr)
+       84    0.003    0.000    0.031    0.000 DVT_Board_Amalfi.py:1456(wr_core)
+       84    0.001    0.000    0.122    0.001 DVT_Board_Amalfi.py:1522(rd_checksum)
+        8    0.000    0.000    0.125    0.016 DVT_Board_Amalfi.py:2298(register_write)
+        8    0.001    0.000    0.125    0.016 DVT_Board_Amalfi.py:2412(register_rw_core)
+        8    0.000    0.000    0.058    0.007 DVT_Board_Amalfi.py:2976(register_write_rffe_ifc)
+        3    0.000    0.000    0.129    0.043 DVT_Board_Amalfi.py:970(enable_txen)
+        1    0.000    0.000    0.003    0.003 Dummy_Test.py:54(Dummy_Test_STOP)
+        1    0.000    0.000    0.003    0.003 Dummy_Test.py:64(Dummy_Test_SETUP)
+        1    0.000    0.000    0.504    0.504 Dummy_Test.py:7(Dummy_Test_RUN)
+       16    0.000    0.000    0.021    0.001 Logger.py:71(write)
+       23    0.000    0.000    0.000    0.000 NullInstrument.py:238(get)
+        3    0.000    0.000    0.000    0.000 NullInstrument.py:272(__getattr__)
+        3    0.000    0.000    0.000    0.000 NullInstrument.py:299(dummy_method)
+        1    0.000    0.000    0.001    0.001 PSU_Virtual.py:27(set_VbatOnOff)
+        1    0.000    0.000    0.000    0.000 PSU_Virtual.py:59(check_Vbat_alive)
+        1    0.000    0.000    0.066    0.066 PypatGui.pyw:2051(on_TestmodeEntry_select)
+        1    0.000    0.000    1.816    1.816 PypatGui.pyw:2105(on_RunBtn_mouseClick)
+        1    0.000    0.000    0.013    0.013 PypatGui.pyw:2301(stop_button_function)
+        3    0.000    0.000    0.000    0.000 PypatGui.pyw:2379(set_test_run_state)
+        3    0.000    0.000    0.009    0.003 PypatGui.pyw:2891(stop_thread_check)
+        2    0.000    0.000    0.000    0.000 PypatGui.pyw:3112(get_dut_info)
+        1    0.000    0.000    0.000    0.000 PypatGui.pyw:3434(update_pa_registers)
+        1    0.000    0.000    0.000    0.000 PypatGui.pyw:3738(set_pypat_run_mode)
+        4    0.000    0.000    0.000    0.000 PypatGui.pyw:3744(get_pypat_run_mode)
+       88    0.000    0.000    0.001    0.000 PypatGui.pyw:3755(write_scpi_log)
+       84    0.001    0.000    0.001    0.000 PypatGui.pyw:3767(write_dvt_log)
+        1    0.000    0.000    0.000    0.000 PypatGui.pyw:3970(substitute_sn_date)
+        1    0.000    0.000    0.115    0.115 PypatGui.pyw:4010(updateStatus)
+       20    0.001    0.000    0.033    0.002 PypatGui.pyw:4689(get_mode_from_control_signals)
+        3    0.000    0.000    0.000    0.000 PypatGui.pyw:4837(sec_to_hms)
+       16    0.000    0.000    0.021    0.001 PypatGui.pyw:4880(write_console)
+        4    0.000    0.000    0.004    0.001 PypatGui.pyw:4931(write_prompt)
+        2    0.000    0.000    0.000    0.000 PypatGui.pyw:4990(evalPriority)
+        2    0.000    0.000    0.098    0.049 PypatGui.pyw:5028(prnm)
+        1    0.000    0.000    0.043    0.043 PypatGui.pyw:5163(PRM)
+        1    0.000    0.000    0.109    0.109 PypatGui.pyw:5186(VbatEnable)
+       15    0.002    0.000    0.030    0.002 PypatGui.pyw:5273(update_measurement_box)
+        2    0.000    0.000    0.025    0.012 PypatGui.pyw:5311(clear_measurement_boxes)
+        2    0.000    0.000    0.005    0.003 PypatGui.pyw:5319(clear_progress_boxes)
+        1    0.000    0.000    0.052    0.052 PypatGui.pyw:5332(set_ips)
+        1    0.000    0.000    0.065    0.065 PypatGui.pyw:5748(write_ops)
+        2    0.000    0.000    0.017    0.008 PypatGui.pyw:5971(openfile)
+        1    0.000    0.000    0.339    0.339 PypatGui.pyw:6114(calibrate_op_pm_s21)
+       20    0.000    0.000    0.000    0.000 PypatGui.pyw:6157(find_instr)
+        1    0.000    0.000    0.003    0.003 PypatInstrument.py:1279(set)
+       14    0.000    0.000    0.001    0.000 PypatInstrument.py:1384(get)
+        1    0.000    0.000    0.000    0.000 PypatInstrument.py:201(set_tuners_to_50ohm)
+        1    0.000    0.000    0.000    0.000 Script.py:1656(convert_testname_pypat_to_atrgui)
+        1    0.000    0.000    0.000    0.000 Script.py:378(get_script_logfile_name)
+        1    0.000    0.000    0.056    0.056 Script.py:409(write_measurement_log)
+        1    0.000    0.000    0.000    0.000 Script.py:543(write_measurement_log_section_head)
+        1    0.000    0.000    0.000    0.000 Script.py:609(write_measurement_log_test_header_line)
+        1    0.000    0.000    0.000    0.000 Script.py:627(write_measurement_log_test_data_line)
+       32    0.000    0.000    0.001    0.000 Utility.py:123(split_rffe_commands)
+        6    0.000    0.000    0.000    0.000 Utility.py:192(hex2bin)
+        6    0.000    0.000    0.000    0.000 Utility.py:270(bin2hex)
+     3202    0.002    0.000    0.002    0.000 Utility.py:396(mag2dB)
+     3202    0.002    0.000    0.002    0.000 Utility.py:401(dB2mag)
+     3202    0.004    0.000    0.006    0.000 Utility.py:430(magphase2ri)
+     3202    0.005    0.000    0.007    0.000 Utility.py:438(ri2magphase)
+        6    0.000    0.000    0.000    0.000 Utility.py:98(replace_bit)
+       84    0.001    0.000    0.001    0.000 __init__.py:52(create_string_buffer)
+        8    0.000    0.000    0.000    0.000 _controls.py:1748(GetValue)
+       25    0.000    0.000    0.002    0.000 _controls.py:1752(SetValue)
+       16    0.000    0.000    0.000    0.000 _controls.py:2924(GetSelection)
+       16    0.000    0.000    0.000    0.000 _controls.py:2932(GetPageText)
+      181    0.000    0.000    0.001    0.000 _controls.py:360(GetValue)
+        3    0.000    0.000    0.000    0.000 _controls.py:378(SetValue)
+       36    0.000    0.000    0.001    0.000 _controls.py:604(GetValue)
+        5    0.000    0.000    0.001    0.000 _controls.py:612(SetValue)
+        2    0.000    0.000    0.000    0.000 _controls.py:898(SetValue)
+       20    0.000    0.000    0.000    0.000 _core.py:11905(GetCount)
+     1120    0.001    0.000    0.020    0.000 _core.py:11921(GetString)
+        1    0.000    0.000    0.000    0.000 _core.py:11972(GetStringSelection)
+        1    0.000    0.000    0.000    0.000 _core.py:4372(<lambda>)
+        2    0.000    0.000    0.000    0.000 _core.py:4416(GetId)
+        1    0.000    0.000    0.000    0.000 _core.py:5462(GetKeyCode)
+        3    0.000    0.000    0.009    0.003 _core.py:7262(Yield)
+       20    0.000    0.000    0.015    0.001 _core.py:8497(SetLabel)
+       16    0.000    0.000    0.000    0.000 _core.py:9298(SetFocus)
+       14    0.000    0.000    0.000    0.000 _core.py:9763(Refresh)
+       97    0.000    0.000    0.017    0.000 _core.py:9782(Update)
+       99    0.000    0.000    0.001    0.000 _core.py:9952(SetBackgroundColour)
+        9    0.000    0.000    0.000    0.000 _gdi.py:118(__init__)
+        9    0.000    0.000    0.000    0.000 _gdi.py:129(<lambda>)
+        2    0.000    0.000    0.002    0.001 _windows.py:890(SetStatusText)
+       20    0.004    0.000    0.024    0.001 combobox.py:77(_getItems)
+     66/2    0.000    0.000    0.001    0.000 copy.py:145(deepcopy)
+       46    0.000    0.000    0.000    0.000 copy.py:198(_deepcopy_atomic)
+        1    0.000    0.000    0.000    0.000 copy.py:226(_deepcopy_list)
+        3    0.000    0.000    0.000    0.000 copy.py:234(_deepcopy_tuple)
+      4/2    0.000    0.000    0.000    0.000 copy.py:253(_deepcopy_dict)
+       64    0.000    0.000    0.000    0.000 copy.py:267(_keep_alive)
+        1    0.000    0.000    0.000    0.000 copy.py:283(_deepcopy_inst)
+      3/2    0.000    0.000    0.000    0.000 copy.py:306(_reconstruct)
+        3    0.000    0.000    0.000    0.000 copy_reg.py:92(__newobj__)
+       38    0.000    0.000    0.000    0.000 cp1252.py:14(decode)
+        1    0.000    0.000    0.000    0.000 frequency.py:124(unit)
+        2    0.000    0.000    0.000    0.000 frequency.py:130(unit)
+        4    0.000    0.000    0.000    0.000 frequency.py:134(multiplier)
+        2    0.000    0.000    0.000    0.000 frequency.py:53(__init__)
+        8    0.000    0.000    0.000    0.000 frequency.py:95(f)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:1454(shape)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:495(transpose)
+        1    0.000    0.000    0.000    0.000 function_base.py:1055(diff)
+        8    0.000    0.000    0.000    0.000 function_base.py:9(linspace)
+       82    0.000    0.000    0.065    0.001 genericpath.py:15(exists)
+        8    0.000    0.000    0.000    0.000 genericpath.py:85(_splitext)
+        2    0.000    0.000    0.094    0.047 inspect.py:1025(getouterframes)
+        2    0.000    0.000    0.094    0.047 inspect.py:1052(stack)
+      156    0.000    0.000    0.000    0.000 inspect.py:142(isfunction)
+      195    0.000    0.000    0.000    0.000 inspect.py:181(istraceback)
+      195    0.000    0.000    0.000    0.000 inspect.py:191(isframe)
+      156    0.000    0.000    0.000    0.000 inspect.py:209(iscode)
+      125    0.000    0.000    0.001    0.000 inspect.py:398(getfile)
+    82/78    0.001    0.000    0.083    0.001 inspect.py:440(getsourcefile)
+       51    0.000    0.000    0.008    0.000 inspect.py:460(getabsfile)
+       47    0.011    0.000    0.031    0.001 inspect.py:472(getmodule)
+    14079    0.005    0.000    0.007    0.000 inspect.py:51(ismodule)
+       39    0.000    0.000    0.047    0.001 inspect.py:518(findsource)
+      156    0.000    0.000    0.000    0.000 inspect.py:59(isclass)
+      156    0.000    0.000    0.000    0.000 inspect.py:67(ismethod)
+       39    0.000    0.000    0.094    0.002 inspect.py:987(getframeinfo)
+       39    0.000    0.000    0.001    0.000 linecache.py:33(getlines)
+        8    0.000    0.000    0.001    0.000 linecache.py:68(updatecache)
+      508    0.001    0.000    0.001    0.000 model.py:71(__getattr__)
+        5    0.000    0.000    0.000    0.000 network.py:222(s)
+        1    0.000    0.000    0.000    0.000 network.py:236(s)
+        8    0.000    0.000    0.000    0.000 network.py:276(frequency)
+        2    0.000    0.000    0.000    0.000 network.py:294(f)
+        1    0.000    0.000    0.000    0.000 network.py:299(f)
+        1    0.000    0.000    0.000    0.000 network.py:356(z0)
+        1    0.000    0.000    0.302    0.302 network.py:71(__init__)
+       16    0.000    0.000    0.000    0.000 notebook.py:67(_getStringSelection)
+       71    0.000    0.000    0.000    0.000 ntpath.py:122(splitdrive)
+       11    0.000    0.000    0.000    0.000 ntpath.py:164(split)
+        8    0.000    0.000    0.000    0.000 ntpath.py:189(splitext)
+        4    0.000    0.000    0.000    0.000 ntpath.py:196(basename)
+        2    0.000    0.000    0.000    0.000 ntpath.py:203(dirname)
+       55    0.000    0.000    0.001    0.000 ntpath.py:398(normpath)
+       51    0.000    0.000    0.000    0.000 ntpath.py:42(normcase)
+       55    0.000    0.000    0.001    0.000 ntpath.py:466(abspath)
+        5    0.000    0.000    0.000    0.000 ntpath.py:55(isabs)
+        5    0.000    0.000    0.000    0.000 ntpath.py:63(join)
+        1    0.000    0.000    0.001    0.001 numeric.py:394(asarray)
+        1    0.000    0.000    0.000    0.000 numeric.py:464(asanyarray)
+       48    0.000    0.000    0.000    0.000 re.py:139(search)
+    13482    0.012    0.000    0.045    0.000 re.py:144(sub)
+        6    0.000    0.000    0.000    0.000 re.py:169(findall)
+       35    0.000    0.000    0.000    0.000 re.py:188(compile)
+    13571    0.013    0.000    0.016    0.000 re.py:226(_compile)
+        1    0.000    0.000    0.000    0.000 re.py:248(_compile_repl)
+        1    0.000    0.000    0.000    0.000 re.py:268(_subx)
+       84    0.000    0.000    0.000    0.000 serialutil.py:379(getTimeout)
+       84    0.120    0.001    0.122    0.001 serialwin32.py:208(read)
+       84    0.027    0.000    0.027    0.000 serialwin32.py:243(write)
+        4    0.000    0.000    0.000    0.000 shell.py:1010(fixLineEndings)
+        4    0.000    0.000    0.002    0.001 shell.py:1021(prompt)
+        1    0.000    0.000    0.000    0.000 shell.py:1285(CanEdit)
+        2    0.000    0.000    0.000    0.000 shell.py:1502(OnUpdateUI)
+        1    0.000    0.000    0.000    0.000 shell.py:438(OnChar)
+        4    0.000    0.000    0.001    0.000 shell.py:995(write)
+        5    0.000    0.000    0.005    0.001 statictext.py:55(_setText)
+        4    0.000    0.000    0.000    0.000 stc.py:1419(AddText)
+       26    0.000    0.000    0.000    0.000 stc.py:1475(GetCurrentPos)
+        4    0.000    0.000    0.000    0.000 stc.py:1632(GetCurLine)
+        1    0.000    0.000    0.000    0.000 stc.py:2647(GetSelectionStart)
+        1    0.000    0.000    0.000    0.000 stc.py:2663(GetSelectionEnd)
+        8    0.000    0.000    0.002    0.000 stc.py:2840(EnsureCaretVisible)
+        4    0.000    0.000    0.000    0.000 stc.py:2880(EmptyUndoBuffer)
+       16    0.000    0.000    0.000    0.000 stc.py:3440(SetEndAtLastLine)
+       12    0.000    0.000    0.003    0.000 stc.py:3483(AppendText)
+       32    0.000    0.000    0.014    0.000 stc.py:3691(DocumentEnd)
+        4    0.000    0.000    0.000    0.000 stc.py:4982(ScrollToColumn)
+        2    0.000    0.000    0.000    0.000 stc.py:5380(<lambda>)
+      246    0.000    0.000    0.000    0.000 string.py:220(lower)
+      100    0.000    0.000    0.000    0.000 threading.py:681(name)
+      100    0.000    0.000    0.000    0.000 threading.py:825(currentThread)
+        1    0.000    0.000    0.000    0.000 touchstone.py:147(get_format)
+        1    0.000    0.000    0.000    0.000 touchstone.py:221(get_sparameter_arrays)
+        1    0.001    0.001    0.299    0.299 touchstone.py:32(__init__)
+        9    0.000    0.000    0.000    0.000 widget.py:113(_setBackgroundColor)
+        9    0.000    0.000    0.000    0.000 widget.py:137(_getDefaultColor)
+       38    0.000    0.000    0.000    0.000 {_codecs.charmap_decode}
+      672    0.000    0.000    0.000    0.000 {_ctypes.byref}
+        4    0.000    0.000    0.000    0.000 {abs}
+       42    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x1E1EC4C0}
+      228    0.012    0.000    0.029    0.000 {eval}
+       15    0.000    0.000    0.000    0.000 {getattr}
+    10097    0.003    0.000    0.003    0.000 {hasattr}
+      144    0.000    0.000    0.000    0.000 {id}
+       82    0.000    0.000    0.000    0.000 {imp.get_suffixes}
+    15671    0.003    0.000    0.003    0.000 {isinstance}
+        9    0.000    0.000    0.000    0.000 {issubclass}
+    13739    0.001    0.000    0.001    0.000 {len}
+     3204    0.001    0.000    0.001    0.000 {math.atan2}
+     3202    0.001    0.000    0.001    0.000 {math.cos}
+     3204    0.001    0.000    0.001    0.000 {math.log10}
+     3202    0.001    0.000    0.001    0.000 {math.sin}
+     3202    0.001    0.000    0.001    0.000 {math.sqrt}
+       78    0.000    0.000    0.000    0.000 {max}
+        4    0.000    0.000    0.000    0.000 {method '__deepcopy__' of 'numpy.generic' objects}
+        2    0.000    0.000    0.000    0.000 {method '__deepcopy__' of 'numpy.ndarray' objects}
+        3    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'object' objects}
+     1309    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        8    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'close' of 'file' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       28    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+    14306    0.003    0.000    0.003    0.000 {method 'extend' of 'list' objects}
+        6    0.000    0.000    0.000    0.000 {method 'findall' of '_sre.SRE_Pattern' objects}
+        3    0.000    0.000    0.000    0.000 {method 'flush' of 'file' objects}
+    23173    0.004    0.000    0.004    0.000 {method 'get' of 'dict' objects}
+       12    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'iteritems' of 'dict' objects}
+       83    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+    13031    0.010    0.000    0.010    0.000 {method 'lower' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {method 'lower' of 'unicode' objects}
+       55    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+        1    0.079    0.079    0.079    0.079 {method 'read' of 'file' objects}
+        4    0.001    0.000    0.001    0.000 {method 'readlines' of 'file' objects}
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+      189    0.002    0.000    0.002    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'replace' of 'unicode' objects}
+        2    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       24    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       48    0.000    0.000    0.000    0.000 {method 'search' of '_sre.SRE_Pattern' objects}
+    25493    0.035    0.000    0.035    0.000 {method 'split' of 'str' objects}
+       68    0.000    0.000    0.000    0.000 {method 'split' of 'unicode' objects}
+      134    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+    12718    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 {method 'strip' of 'unicode' objects}
+    13482    0.018    0.000    0.018    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+        4    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       10    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+      357    0.000    0.000    0.000    0.000 {method 'upper' of 'unicode' objects}
+       19    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+       35    0.000    0.000    0.000    0.000 {min}
+       55    0.000    0.000    0.000    0.000 {nt._getfullpathname}
+        5    0.007    0.001    0.007    0.001 {nt.access}
+       86    0.065    0.001    0.065    0.001 {nt.stat}
+        8    0.000    0.000    0.000    0.000 {numpy.core.multiarray.arange}
+        2    0.001    0.000    0.001    0.000 {numpy.core.multiarray.array}
+        8    0.000    0.000    0.000    0.000 {numpy.core.multiarray.result_type}
+        1    0.000    0.000    0.000    0.000 {numpy.core.multiarray.where}
+        6    0.017    0.003    0.017    0.003 {open}
+      672    0.000    0.000    0.000    0.000 {ord}
+      153    0.000    0.000    0.000    0.000 {range}
+        2    0.000    0.000    0.000    0.000 {sys._getframe}
+      100    0.000    0.000    0.000    0.000 {thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {time.localtime}
+       86    1.100    0.013    1.100    0.013 {time.sleep}
+        2    0.000    0.000    0.000    0.000 {time.strftime}
+       97    0.000    0.000    0.000    0.000 {time.time}
+       16    0.000    0.000    0.000    0.000 {wx._controls_.BookCtrlBase_GetPageText}
+       16    0.000    0.000    0.000    0.000 {wx._controls_.BookCtrlBase_GetSelection}
+      181    0.000    0.000    0.000    0.000 {wx._controls_.CheckBox_GetValue}
+        3    0.000    0.000    0.000    0.000 {wx._controls_.CheckBox_SetValue}
+       36    0.000    0.000    0.000    0.000 {wx._controls_.ComboBox_GetValue}
+        5    0.001    0.000    0.001    0.000 {wx._controls_.ComboBox_SetValue}
+        2    0.000    0.000    0.000    0.000 {wx._controls_.Gauge_SetValue}
+        8    0.000    0.000    0.000    0.000 {wx._controls_.TextCtrl_GetValue}
+       25    0.002    0.000    0.002    0.000 {wx._controls_.TextCtrl_SetValue}
+        2    0.000    0.000    0.000    0.000 {wx._core_.Event_GetId}
+       20    0.000    0.000    0.000    0.000 {wx._core_.ItemContainer_GetCount}
+        1    0.000    0.000    0.000    0.000 {wx._core_.ItemContainer_GetStringSelection}
+     1120    0.019    0.000    0.019    0.000 {wx._core_.ItemContainer_GetString}
+        1    0.000    0.000    0.000    0.000 {wx._core_.KeyEvent_GetKeyCode}
+        3    0.009    0.003    0.009    0.003 {wx._core_.PyApp_Yield}
+       14    0.000    0.000    0.000    0.000 {wx._core_.Window_Refresh}
+       99    0.001    0.000    0.001    0.000 {wx._core_.Window_SetBackgroundColour}
+       16    0.000    0.000    0.000    0.000 {wx._core_.Window_SetFocus}
+       20    0.015    0.001    0.015    0.001 {wx._core_.Window_SetLabel}
+       97    0.017    0.000    0.017    0.000 {wx._core_.Window_Update}
+        9    0.000    0.000    0.000    0.000 {wx._gdi_.Colour_swiginit}
+        9    0.000    0.000    0.000    0.000 {wx._gdi_.new_Colour}
+        4    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_AddText}
+       12    0.003    0.000    0.003    0.000 {wx._stc.StyledTextCtrl_AppendText}
+       32    0.014    0.000    0.014    0.000 {wx._stc.StyledTextCtrl_DocumentEnd}
+        4    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_EmptyUndoBuffer}
+        8    0.002    0.000    0.002    0.000 {wx._stc.StyledTextCtrl_EnsureCaretVisible}
+        4    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_GetCurLine}
+       26    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_GetCurrentPos}
+        1    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_GetSelectionEnd}
+        1    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_GetSelectionStart}
+        4    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_ScrollToColumn}
+       16    0.000    0.000    0.000    0.000 {wx._stc.StyledTextCtrl_SetEndAtLastLine}
+        2    0.002    0.001    0.002    0.001 {wx._windows_.StatusBar_SetStatusText}
