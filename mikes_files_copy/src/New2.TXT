@@ -1,0 +1,111 @@
+importing pygram_mwavepy True
+
+PYGRAM: dev1.244 ,  MATPLOTLIB: 1.2.0,  PYTHON: 2.7.3 
+
+
+*******************************************************************************
+ Script        : pygram_gui_dev.py
+ Run on        : 03feb14_1946
+ Run by        : ma024577
+ Version Info  : PYGRAM: dev1.244 , MATPLOTLIB: 1.2.0, PYTHON: 2.7.3 , OS: nt PC
+ PyConfig file : C:\Users\ma024577\AppData\Local\Temp\pygram.ini
+ ATR Logfiles  : []
+ Save Directory: N:\sw\user\ma024577\pygram\src/
+ Serial Numbers: UNKNOWN
+*******************************************************************************
+
+  ...waiting for user input
+ ...reading logfile 'N:/sw/shared/pypat/tandem_testdev/edge_loadpull_31jan14_1811.log'
+   .read atr    654 lines, read in records      0 to    636
+
+@@@@@@@@@  TEST TIME RUN STATISTICS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ TestName                Num_of_Tests   Avg_Run_Time  Num_of_setups  Avg_Setup_time  Total_time %
+@@ Edge ORFS Modulation             635      5.808(sec)       0      0.000(sec)    1:01:28 (100.0%)
+@@@@@   TOTAL TEST TIME =   1:01:28 (hours:mins:secs)
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+...the following data columns were found in the logfile:
+
+'//T#', '@Prated', 'ACP +1200kHz(dBm)', 'ACP +1800kHz(dBm)', 'ACP +200KHz(dBm)', 'ACP +250KHz(dBm)', 'ACP +400KHz(dBm)', 'ACP +600KHz(dBm)', 'ACP -1200kHz(dBm)', 'ACP -1800kHz(dBm)', 'ACP -200KHz(dBm)', 'ACP -250KHz(dBm)', 'ACP -400KHz(dBm)', 'ACP -600KHz(dBm)', 'ACP 0KHz(dBm)', 'ACPR +1200kHz(dB)', 'ACPR +1800kHz(dB)', 'ACPR +200KHz(dB)', 'ACPR +250KHz(dB)', 'ACPR +400KHz(dB)', 'ACPR +600KHz(dB)', 'ACPR -1200kHz(dB)', 'ACPR -1800kHz(dB)', 'ACPR -200KHz(dB)', 'ACPR -250KHz(dB)', 'ACPR -400KHz(dB)', 'ACPR -600KHz(dB)', 'AMAM conversion abs (V/V)', 'AMAM conversion abs (V/V-voffset)', 'ATR Correlation Log File', 'Adj Pwr Out(dBm)', 'Chip Model', 'Comment', 'Comment_Section', 'ControlBits', 'ControlMode', 'ControlSignals', 'DUT Test GUI Version Number', 'Date', 'Ext Ctrl Bits', 'FPGA Version Number', 'File Type', 'Freq(GHz)', 'Freq(MHz)', 'Gain Linearity(dB/dB)', 'HB_LB', 'Ibat', 'Load_Tuner_Loss', 'Load_Tuner_Sparameters', 'Log File Format Version', 'LogFile', 'Magnitude', 'Modulation', 'NC_Match', 'NC_Reference', 'NC_Target', 'NumSlots', 'PAE(%)', 'PCL', 'PICC Version Number', 'Part Number (Chip ID)', 'Phase(degree)', 'Pin_Search', 'Pout(V)', 'Pout(W)', 'Pout(dBm)', 'Poutpk(V)', 'Process', 'Pwr Gain Variation(dB/dB)', 'Pwr Gain(dB)', 'Pwr In(dBm)', 'Pwr Variation(dB)', 'Pwr2 Variation(dB)', 'REGISTER_MASK', 'Ref Pout(dBm)', 'Ref2 Pout(dBm)', 'Register', 'Register Check Pass', 'Register Read Data', 'Register Write Data', 'Regmap', 'RepeatCount', 'SN', 'SN_fld0', 'SWIP', 'SWOP', 'Script File', 'Script File Name', 'Script Linenumber', 'ScriptExp#', 'Segments', 'Serial Number', 'Src_Tuner_Loss', 'Station Number', 'Sub-band', 'Temp(C)', 'Temp_Actual', 'Temp_Vmux(C)', 'Temperature Soak Time (in secs)', 'Temperature(degree C)', 'Test Date & Time', 'Test Freq(MHz)', 'Test Type', 'TestName', 'Time', 'Time(sec)', 'VSWR', 'Vbat(Volt)', 'Vmux(V)', 'Vramp', 'Vramp File', 'Vramp Filebase', 'Vramp Release', 'Vramp Voltage', 'VrampDir', 'Vramp_Search', 'chipid', 'linenumber', 'logfiledir', 'logfilename', 'phi', 'record_num', 'section', 'test_full_time', 'test_run_time', 'test_setup_time', 'timestamp', 'vswr', 'xOn_Delay', 
+
+
+The logfiles have the following parameters swept:
+    ControlSignals : S0000110 (HBEDGE)(636) 
+    Freq(MHz)      : 1910.0(636) 
+    HB_LB          : HB(636) 
+    Phase(degree)  : -0.218088950172(6) -180.0(54) -120.0(54) -60.0(54) -0.219516301347(6) 60.0(54) 120.0(54) 180.0(54) -0.218649636663(6) -150.0(42) -90.0(42) -30.0(42) -0.215742031165(6) 30.0(42) 90.0(42) 150.0(42) -0.223021760395(6) -0.235162529656(6) -0.245899002864(6) -0.277454743548(6) -0.305765167494(6) -0.337246927278(6) 
+    Pwr In(dBm)    : -10.0(106) -8.0(106) -6.0(106) -4.0(106) -2.0(106) 0.0(106) 
+    Regmap         : None(636) 
+    SN             : 7367_2(636) 
+    Serial Number  : 7367_2(636) 
+    Source Phase(degree): 
+    Source VSWR    : 
+    Sub-band       : HB-PCS1900(636) 
+    Temp(C)        : 25(636) 
+    Test Freq(MHz) : 1910.0(636) 
+    TestName       : Edge ORFS Modulation(636) 
+    VSWR           : 1.0(6) 1.1(42) 1.3(42) 1.5(78) 2.0(78) 2.5(78) 3.0(78) 4.0(78) 5.0(78) 6.0(78) 
+    Vbat(Volt)     : 3.5(636) 
+    Vramp Voltage  : 0vdc(636) 
+    csvfilename    : 
+    duration(sec)  : 
+    gpib_addr      : 
+    ibcom          : 
+    logfilename    : edge_loadpull_31jan14_1811.log(636) 
+    scpi_rd        : 
+    scpi_wr        : 
+
+  ...waiting for user input
+r_idx and theta_idx = 1 None
+['phi', 'vswr'] None 1 contour
+
+---(plot_graph_data_core)----------------------------------------
+
+...plotting data for  x,y,z = ['phi', 'vswr', 'Pout(dBm)']
+
+(plot_graph) self.filter_conditions= [['Pwr In(dBm)', '=', -10.0]]
+(select_data) full_series_conditions =  ['ControlSignals', 'Freq(MHz)', 'Regmap', 'SN', 'Serial Number', 'Temp(C)', 'TestName', 'VSWR', 'Vbat(Volt)', 'logfilename']
+  filter conditions :
+     Pwr In(dBm)      = [-10.0]                        #matches= 106    sel= [-10.0] 
+  .(select_data) found 10 series with 106 individual measurement values that match all the filter conditions
+X,X2= [[-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]
+ [-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]
+ [-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]
+ ..., 
+ [-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]
+ [-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]
+ [-180.         -172.65306122 -165.30612245 ...,  165.30612245
+   172.65306122  180.        ]] [[ 1.          1.          1.         ...,  1.          1.          1.        ]
+ [ 1.10204082  1.10204082  1.10204082 ...,  1.10204082  1.10204082
+   1.10204082]
+ [ 1.20408163  1.20408163  1.20408163 ...,  1.20408163  1.20408163
+   1.20408163]
+ ..., 
+ [ 5.79591837  5.79591837  5.79591837 ...,  5.79591837  5.79591837
+   5.79591837]
+ [ 5.89795918  5.89795918  5.89795918 ...,  5.89795918  5.89795918
+   5.89795918]
+ [ 6.          6.          6.         ...,  6.          6.          6.        ]]
+x,x2= [-0.218088950172, -180.0, -120.0, -60.0, -0.219516301347, 60.0, 120.0, 180.0, -180.0, -120.0, -60.0, 
+-0.218649636663, 60.0, 120.0, 180.0, -180.0, -150.0, -120.0, -90.0, -60.0, -30.0, -0.215742031165, 30.0, 60.0, 90.0,
+ 120.0, 150.0, 180.0, -180.0, -150.0, -120.0, -90.0, -60.0, -30.0, -0.223021760395, 30.0, 60.0, 90.0, 120.0, 150.0,
+  180.0, -180.0, -150.0, -120.0, -90.0, -60.0, -30.0, -0.235162529656, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, -180.0, 
+  -150.0, -120.0, -90.0, -60.0, -30.0, -0.245899002864, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, -180.0, -150.0, -120.0,
+   -90.0, -60.0, -30.0, -0.277454743548, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, -180.0, -150.0, -120.0, -90.0, -60.0, 
+   -30.0, -0.305765167494, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0, -180.0, -150.0, -120.0, -90.0, -60.0, -30.0, 
+   -0.337246927278, 30.0, 60.0, 90.0, 120.0, 150.0, 180.0] 
+   
+   
+   [1.0, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0]
+XYNAMES =  ['phi', 'vswr', 'Pout(dBm)']
+C:\Python27\lib\site-packages\matplotlib\axes.py:4602: UserWarning: No labeled objects found. Use label='...' kwarg on individual plots.
+  warnings.warn("No labeled objects found. "
+LIMITS X: [-180.0, 180.0]
+LIMITS Y: [1.0, 6.0]
+  ...waiting for user input

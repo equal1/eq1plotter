@@ -1,0 +1,80 @@
+
+PYGRAM: X1.204 ,  MATPLOTLIB: 0.99.1,  PYTHON: 2.6.5 
+
+ ...reading logfile 'Y:\Projects\NightTrainExpress\Shared_Area\DVT Test Results\AM7811\Molded\Lot_999_CC1\PRS_Test\EVB_nofilter_wC3\Contour\AM7811_100999_nofilter_wC3_SN038_Contour_Pypat.log'
+   .read atr   7158 lines, read in records      0 to   7140
+(add_vramp2pout_data)  pae_cond_count = 7140  vramp_count = 0    vramp_cond_count = 0
+(add_missing_columns)  rnl= [[836, 898, 1748, 1880, -1, -1], [1.0, 0.0, 25, 3.5, 3.0], 'N35', [None, None, None, 3.5, None]]
+    (add_ref_pout_data) ) [ 0,7140] 'Vramp' data which met the nominal conditions for freq=898 was found. Therefore 'Ref Pout' data will be calculated
+    (add_ref_pout_data) ) [ 0,7140] 'Vramp' data which met the nominal conditions for freq=1748 was found. Therefore 'Ref Pout' data will be calculated
+(add_missing_columns)  rnl= [[836, 898, 1748, 1880, -1, -1], [1.0, 0.0, 25, 2.7000000000000002, 3.0], 'N27', [None, None, None, 2.7000000000000002, None]]
+
+*** WARNING *** (add_ref_pout_data) [0,7140] (Vramp) No data was found that matched the nominal conditions at the freq=898,
+    therefore there will not be any 'Ref Pout' data or any '@ Prated' for this sub-band freq
+    Make sure there is data in the logfile that meets the following condtions:
+                 Linenumber range = [19, 7158]
+                        Freq(MHz) = 898
+                         TestName = Output Power & Efficiency
+                             VSWR = 1.0
+                    Phase(degree) = 0.0
+                          Temp(C) = 25
+                       Vbat(Volt) = 2.7
+                      Pwr In(dBm) = 3.0
+    It may help to split the logfile into separate high band and low band logfiles.
+
+*** WARNING *** (add_ref_pout_data) [0,7140] (Vramp) No data was found that matched the nominal conditions at the freq=1748,
+    therefore there will not be any 'Ref Pout' data or any '@ Prated' for this sub-band freq
+    Make sure there is data in the logfile that meets the following condtions:
+                 Linenumber range = [19, 7158]
+                        Freq(MHz) = 1748
+                         TestName = Output Power & Efficiency
+                             VSWR = 1.0
+                    Phase(degree) = 0.0
+                          Temp(C) = 25
+                       Vbat(Volt) = 2.7
+                      Pwr In(dBm) = 3.0
+    It may help to split the logfile into separate high band and low band logfiles.
+
+@@@@@@@@@  TEST TIME RUN STATISTICS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ TestName                Num_of_Tests   Avg_Run_Time  Num_of_setups  Avg_Setup_time  Total_time  %
+(add_logfile) values_dict[@Prated]= [None]
+         4704960 function calls (4704422 primitive calls) in 51.569 CPU seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+
+        1    0.000    0.000   51.569   51.569 profile:0(g.add_logfile(file))
+        0    0.000             0.000          profile:0(profiler)
+    21420    0.921    0.000    1.288    0.000 pygram_dev.py:12998(get_cond_val_from_rn)
+        1    0.003    0.003    0.556    0.556 pygram_dev.py:14202(win_load)
+        1   16.673   16.673   51.500   51.500 pygram_dev.py:3691(add_logfile)
+        2    0.001    0.000    0.845    0.422 pygram_dev.py:4517(create_values_dict)
+       52    0.605    0.012    0.980    0.019 pygram_dev.py:4540(add_values_dict)
+     7140    0.095    0.000    0.107    0.000 pygram_dev.py:4605(hex2bin)
+        1    0.299    0.299   14.709   14.709 pygram_dev.py:4628(add_missing_columns)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5012(add_harmonics_dBc_data)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5030(add_orfs_data)
+        1    0.151    0.151   12.143   12.143 pygram_dev.py:5100(add_all_power_values)
+     7140    0.085    0.000    0.833    0.000 pygram_dev.py:5296(get_timestamp)
+        1    0.048    0.048    0.902    0.902 pygram_dev.py:5340(calculate_test_time_statistics)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5535(sec2timestr)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5549(add_vmux_columns)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5744(add_aclr_data)
+        2    0.009    0.004    0.009    0.004 pygram_dev.py:5826(scale_data)
+        2    0.000    0.000    0.000    0.000 pygram_dev.py:5850(update_nom_conditions)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:5868(get_nom_conditions)
+        4    0.266    0.067    0.270    0.067 pygram_dev.py:6379(add_ref_pout_data)
+        1    0.073    0.073    0.118    0.118 pygram_dev.py:6863(add_rated_power_values)
+        1    0.299    0.299    0.447    0.447 pygram_dev.py:7070(add_vramp2pout_data)
+    14465    0.064    0.000    0.092    0.000 pygram_dev.py:7432(add_new_column)
+     7140    0.029    0.000    0.029    0.000 pygram_dev.py:7461(nearest)
+     7140    0.030    0.000    0.122    0.000 pygram_dev.py:7505(get_vramp_filebase)
+     7140    0.061    0.000    0.368    0.000 pygram_dev.py:7524(get_vramp_filename_data)
+        1    0.000    0.000    0.001    0.001 pygram_dev.py:7608(get_filename_from_fullpath)
+       70    0.001    0.000    0.002    0.000 pygram_dev.py:86(write)
+        1    0.000    0.000    0.000    0.000 pygram_dev.py:9189(calc_amam_pout)
+        4    9.603    2.401   11.135    2.784 pygram_dev.py:9810(add_slope)
+
+Process completed, Exit Code 0.
+Execution time: 01:20.663

@@ -1,0 +1,34 @@
+//**************************************************************************************************************
+//File Type: Amalfi PA Test Measurment Data Log File
+//Log File Format Version: 1
+//Test Type:Auto Script
+//Serial Number: xAM7801-TA5-T-U-CF-SN009B-C11-13pF-Wire
+//Part Number (Chip ID): AM8802 A5
+//Chip Model: Chiarlo TxM 7801
+//DUT Test GUI Version Number: Rev. A1.00.287
+//FPGA Version Number: 21
+//PICC Version Number: 13
+//Station Number: 4
+//Test Date & Time: 02-12-2010 18:27:23
+//Temperature Soak Time (in secs): Test @ Ambient
+//Script File Name: l:\Lab & Testing\ATR_Chiarlo\scripts\Load-pull\7801_Stability_A5_HL_CE_long.txt
+//ATR Correlation Log File Not Found.
+//Comment:
+//**************************************************************************************************************																																																	
+//T#	TestName	Reg Map	Actual PA Operation Mode	Ext Ctrl Bits	Sw Matrix	Attenuation Switch	S21(dB)	Source Tuner Loss(dB)	Tuner Loss(dB)	S21In(dB)	Test Freq(MHz)	Vbat(Volt)	Pwr In(dBm)	Source Magnitude	Source Phase(degree)	Source VSWR	Source Ref Coef	Magnitude	Phase(degree)	VSWR	Ref Coef	Is Spur Harmonics (-99 = no)	Spur Number	Range Table of Spur	Frequency of Spur (MHz)	Amplitude of Spur (dBm)	Absolute Limit (dBm)	Pass/Fail(1|0)	Spur Pass Threshold (dBm)	Vbat_I(Amp)	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	Register Check	Reg 0	Alert Reg	Temperature(degree C)	Vramp File	Date	Time	Comment
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	3	0	0	1	0	0.846	-180	11.987013	0.846	0	0	0	0	0	0	0	0	0.682319	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:42:32	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	3	1	13	5535.671	-41.272	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	1	0	0	1	0	0.846	-180	11.987013	0.846	0	0	0	0	0	0	0	0	0.684202	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:42:48	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	3	1	10	5537.338	-42.812	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	0	0	0	1	0	0.846	-180	11.987013	0.846	0	0	0	0	0	0	0	0	0.685865	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:43:05	HB 0.15
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	3	0	0	1	0	0.846	-170	11.987013	0.846	0	0	0	0	0	0	0	0	0.675257	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:43:27	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	13	2345.678	-20	-46	1	-36	 	 	 	 	 	 														
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	13	3704.899	-34.515	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	1	0	0	1	0	0.846	-170	11.987013	0.846	0	0	0	0	0	0	0	0	0.678886	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:43:44	HB 0.15
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	0	0	0	1	0	0.846	-170	11.987013	0.846	0	0	0	0	0	0	0	0	0.681724	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:44:00	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	-99	1	10	7318.02	-45.842	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	3	0	0	1	0	0.846	-160	11.987013	0.846	0	0	0	0	0	0	0	0	0.678456	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:44:22	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	13	3704.899	-36.487	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	1	0	0	1	0	0.846	-160	11.987013	0.846	0	0	0	0	0	0	0	0	0.681831	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:44:39	HB 0.15
+//Spurious Data 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	13	3704.899	-35.29	-46	1	-36	 	 	 	 	 	 														
+6	Spurious (ETSI reduced)	L:\Lab & Testing\ATR_Chiarlo\register_maps\A5\Chiarlo_A5_v001_default.map	GSM	SSSZ1101	H3B	LBIn	-23.2	0	0	-12.1	1850	3.5	0	0	0	1	0	0.846	-160	11.987013	0.846	0	0	0	0	0	0	0	0	0.683804	0	0	0	0	0	0	0	0	0	0	0	Disabled	1a0	2013	           	l:\Lab & Testing\ATR_Chiarlo\ramp_files\ramps_chiarloX3_4Aug09\HB_pwrsel00\chiarloX3.1.230v_ramp.txt	2/12/2010	21:44:56	HB 0.15

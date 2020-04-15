@@ -1,0 +1,546 @@
+*******************************************************************************
+ Script        : pygram_gui_dev.py
+ Run on        : 25jan12_1642
+ Run by        : masker
+ Version Info  : PYGRAM: X1.206 , MATPLOTLIB: 0.99.1, PYTHON: 2.6.5 , OS: nt PC
+ PyConfig file : C:\Users\masker\AppData\Local\Temp\pygram.ini
+ ATR Logfiles  : ['N:/sw/shared/pypat/prs_dev/MikeA_part_PRS_DualBand_DUT_GUI.log', u'N:/sw/shared/pypat/prs_dev/mike2_runs/prs_pypat_mike3_mike sn0052_25jan12_1110.log']
+ PRD .xls file : X:/01-Projects/08-MD2020/Systems/PRS/PRS AM7808 Product Specification Document.xls
+ OP files      : ['N:\\sw\\user\\masker\\pygram\\src\\src.xls', 'N:\\sw\\user\\masker\\pygram\\src\\src.log']
+ Save Directory: N:\sw\user\masker\pygram\src
+ Serial Numbers: ['x7807_mike_sn005', 'mike sn005']
+*******************************************************************************
+
+ 53.1             'Leakage Current Standby Mode @ Prated=[]dBm'     avg_ymax Limit    '2.0' = 2.0     Meas = 3.6192525    (   1.899,3.619,5.300)   mgn:1.619 (2)
+ 53.2             'Leakage Current Standby Mode @ Prated=[]dBm'         ymax Limit   '10.0' = 10.0    Meas = 5.3          (   1.899,3.619,5.300)  PASS mgn:4.700 (0/2)
+ 54.1             'Power Supply Current Receive Mode @ Prated=[]dBm'     avg_ymax Limit   '20.0' = 20.0    Meas = 19.295075    (17.954,19.295,20.422)   mgn:0.705 (2)
+ 79.1  LB-GSM850  'Max. Output Power Nominal @ Prated=[]dBm' ymin_at_xval Limit   '33.3' = 33.3    Meas = None         (                    )  NO_DATA
+ 79.2  LB-GSM850  'Max. Output Power Nominal @ Prated=[]dBm'  avg_at_xval Limit   '34.0' = 34.0    Meas = None         (                    )  NO_DATA
+ 80.1  LB-GSM850  'Max. Output Power Nominal Multislot @ Prated=[]dBm' ymin_at_xval Limit   '30.0' = 30.0    Meas = None         (                    )  NO_DATA
+ 81.1  LB-GSM850  'Max. Output Power Extreme
+@ VBAT = 3.0V @ Prated=[]dBm' ymin_at_xval Limit   '30.5' = 30.5    Meas = None         (                    )  NO_DATA
+ 83.2  LB-GSM850  'Power variation into 3:1 VSWR @ Prated=[]dBm' max_ymaxdiff Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+ 84.1  LB-GSM850  'Min Power @ VSWR 3:1 @ Prated=[]dBm'     min_ymin Limit   '30.0' = 30.0    Meas = None         (                    )  NO_DATA
+ 85.1  LB-GSM850  'Maximum current @ VSWR 3:1 @ Prated=[]dBm'     max_ymax Limit    '1.6' = 1.6     Meas = None         (                    )  NO_DATA
+ 86.1  LB-GSM850  'PAE Max @ Prated=[]dBm'     min_ymax Limit   '45.0' = 45.0    Meas = None         (                    )  NO_DATA
+ 86.2  LB-GSM850  'PAE Max @ Prated=[]dBm'     avg_ymax Limit   '48.0' = 48.0    Meas = None         (                    )  NO_DATA
+ 87.1  LB-GSM850  'PAE @ Ref2 Pout = 33 dBm @ Prated=[]dBm' ymin_at_xval Limit   '44.0' = 44.0    Meas = None         (                    )  NO_DATA
+ 87.2  LB-GSM850  'PAE @ Ref2 Pout = 33 dBm @ Prated=[]dBm'  avg_at_xval Limit   '47.0' = 47.0    Meas = None         (                    )  NO_DATA
+ 88.1  LB-GSM850  'PAE @ Ref2 Pout = 29 dBm @ Prated=[]dBm' ymin_at_xval Limit   '32.0' = 32.0    Meas = None         (                    )  NO_DATA
+ 88.2  LB-GSM850  'PAE @ Ref2 Pout = 29 dBm @ Prated=[]dBm'  avg_at_xval Limit   '35.0' = 35.0    Meas = None         (                    )  NO_DATA
+ 89.1  LB-GSM850  'Current @ Ref2 Pout = 5 dBm @ Prated=[]dBm' ymax_at_xval Limit   '85.0' = 85.0    Meas = None         (                    )  NO_DATA
+ 91.1  LB-GSM850  '869-894 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-86.0' = -86.0   Meas = None         (                    )  NO_DATA
+ 91.2  LB-GSM850  '869-894 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-84.0' = -84.0   Meas = None         (                    )  NO_DATA
+ 92.1  LB-GSM850  '1930-1990 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-82.0' = -82.0   Meas = None         (                    )  NO_DATA
+ 92.2  LB-GSM850  '1930-1990 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-80.0' = -80.0   Meas = None         (                    )  NO_DATA
+ 93.1  LB-GSM850  '869-894 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-83.0' = -83.0   Meas = None         (                    )  NO_DATA
+ 93.2  LB-GSM850  '869-894 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-81.0' = -81.0   Meas = None         (                    )  NO_DATA
+ 94.1  LB-GSM850  '1930-1990 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-79.0' = -79.0   Meas = None         (                    )  NO_DATA
+ 94.2  LB-GSM850  '1930-1990 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-77.0' = -77.0   Meas = None         (                    )  NO_DATA
+95a.1  LB-GSM850  'Maximum Control slope @ Prated=[]dBm' ymin_at_xrange Limit    '0.0' = 0.0     Meas = None         (                    )  NO_DATA
+95a.2  LB-GSM850  'Maximum Control slope @ Prated=[]dBm' ymax_at_xrange Limit  '350.0' = 350.0   Meas = None         (                    )  NO_DATA
+ 96.1  LB-GSM850  'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-55.0' = -55.0   Meas = None         (                    )  NO_DATA
+ 96.2  LB-GSM850  'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+ 96.1  LB-GSM850  'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-55.0' = -55.0   Meas = None         (                    )  NO_DATA
+ 96.2  LB-GSM850  'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+ 97.1  LB-GSM850  'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-25.0' = -25.0   Meas = None         (                    )  NO_DATA
+ 97.2  LB-GSM850  'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-22.0' = -22.0   Meas = None         (                    )  NO_DATA
+ 97.1  LB-GSM850  'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-25.0' = -25.0   Meas = None         (                    )  NO_DATA
+ 97.2  LB-GSM850  'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-22.0' = -22.0   Meas = None         (                    )  NO_DATA
+ 98.1  LB-GSM850  '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+ 98.2  LB-GSM850  '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+ 99.1  LB-GSM850  '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+ 99.2  LB-GSM850  '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+100.1  LB-GSM850  '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+100.2  LB-GSM850  '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+101.1  LB-GSM850  '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+101.2  LB-GSM850  '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+102.1  LB-GSM850  '6th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+102.2  LB-GSM850  '6th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+103.1  LB-GSM850  '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+103.2  LB-GSM850  '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+104.1  LB-GSM850  '8th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+104.2  LB-GSM850  '8th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+105.1  LB-GSM850  '9th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+105.2  LB-GSM850  '9th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+106.1  LB-GSM850  '10th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+106.2  LB-GSM850  '10th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+107.1  LB-GSM850  '11th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+107.2  LB-GSM850  '11th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+108.1  LB-GSM850  '12th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+108.2  LB-GSM850  '12th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+109.1  LB-GSM850  '13th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+109.2  LB-GSM850  '13th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+110.1  LB-GSM850  '14th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+110.2  LB-GSM850  '14th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+111.1  LB-GSM850  '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+111.2  LB-GSM850  '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+112.1  LB-GSM850  '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+112.2  LB-GSM850  '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+113.1  LB-GSM850  '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+113.2  LB-GSM850  '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+114.1  LB-GSM850  '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+114.2  LB-GSM850  '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+115.1  LB-GSM850  '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+115.2  LB-GSM850  '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+116.1  LB-GSM850  '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+116.2  LB-GSM850  '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+117.1  LB-GSM850  '8th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+117.2  LB-GSM850  '8th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+118.1  LB-GSM850  '9th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+118.2  LB-GSM850  '9th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+119.1  LB-GSM850  '10th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+119.2  LB-GSM850  '10th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+120.1  LB-GSM850  '11th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+120.2  LB-GSM850  '11th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+121.1  LB-GSM850  '12th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+121.2  LB-GSM850  '12th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+122.1  LB-GSM850  '13th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+122.2  LB-GSM850  '13th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+123.1  LB-GSM850  '14th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+123.2  LB-GSM850  '14th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+124.1  LB-GSM850  'All Other Non-Harmonic Spurious 100 kHz to 1GHz, Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+125.1  LB-GSM850  'All Other Non-Harmonic Spurious 100 kHz to 1GHz, Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+126.1  LB-GSM850  'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+126.2  LB-GSM850  'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Nominal Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+127.1  LB-GSM850  'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+127.2  LB-GSM850  'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Extreme Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+128.1  LB-GSM850  'Output Load VSWR Stability 100 kHz to 1GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+129.1  LB-GSM850  'Output Load VSWR Stability 1GHz to 12.75 GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+130.1  LB-GSM850  'Output Load VSWR Stability 100 kHz to 1GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+131.1  LB-GSM850  'Output Load VSWR Stability 1GHz to 12.75 GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+140.1  LB-GSM850  '-400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = None         (                    )  NO_DATA
+141.1  LB-GSM850  '+400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = None         (                    )  NO_DATA
+142.1  LB-GSM850  '-600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+143.1  LB-GSM850  '+600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+144.1  LB-GSM850  '-1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+145.1  LB-GSM850  '+1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+146.1  LB-GSM850  '-1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-41.0' = -41.0   Meas = None         (                    )  NO_DATA
+147.1  LB-GSM850  '+1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-41.0' = -41.0   Meas = None         (                    )  NO_DATA
+149.1  LB-GSM850  '-400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-24.0' = -24.0   Meas = None         (                    )  NO_DATA
+150.1  LB-GSM850  '+400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-24.0' = -24.0   Meas = None         (                    )  NO_DATA
+151.1  LB-GSM850  '-600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-26.0' = -26.0   Meas = None         (                    )  NO_DATA
+152.1  LB-GSM850  '+600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-26.0' = -26.0   Meas = None         (                    )  NO_DATA
+153.1  LB-GSM850  '-1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = None         (                    )  NO_DATA
+154.1  LB-GSM850  '+1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = None         (                    )  NO_DATA
+155.1  LB-GSM850  '-1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = None         (                    )  NO_DATA
+156.1  LB-GSM850  '+1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = None         (                    )  NO_DATA
+158.1  LB-GSM850  'Power var over Input Power @ Prated=[]dBm' ymin_at_xrange Limit   '-0.5' = -0.5    Meas = None         (                    )  NO_DATA
+158.2  LB-GSM850  'Power var over Input Power @ Prated=[]dBm' ymax_at_xrange Limit    '0.5' = 0.5     Meas = None         (                    )  NO_DATA
+159.1  LB-GSM850  'Power var over Vbat @ Prated=[]dBm' ymin_at_xrange Limit   '-1.1' = -1.1    Meas = None         (                    )  NO_DATA
+159.2  LB-GSM850  'Power var over Vbat @ Prated=[]dBm' ymax_at_xrange Limit    '1.1' = 1.1     Meas = None         (                    )  NO_DATA
+160.1  LB-GSM850  'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+160.2  LB-GSM850  'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+160.1  LB-GSM850  'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+160.2  LB-GSM850  'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+161.1  LB-GSM850  'Power var over Temperature, High Power @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+161.2  LB-GSM850  'Power var over Temperature, High Power @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+162.1  LB-GSM850  'Power var over Temperature, Low Power @ Prated=[]dBm' ymin_at_xrange Limit   '-2.5' = -2.5    Meas = None         (                    )  NO_DATA
+162.2  LB-GSM850  'Power var over Temperature, Low Power @ Prated=[]dBm' ymax_at_xrange Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+163.1  LB-GSM850  'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit  '-1.75' = -1.75   Meas = None         (                    )  NO_DATA
+163.2  LB-GSM850  'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit   '1.75' = 1.75    Meas = None         (                    )  NO_DATA
+164.1  LB-GSM850  'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-3.0' = -3.0    Meas = None         (                    )  NO_DATA
+164.2  LB-GSM850  'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '3.0' = 3.0     Meas = None         (                    )  NO_DATA
+165.1  LB-GSM850  'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-1.5' = -1.5    Meas = None         (                    )  NO_DATA
+165.2  LB-GSM850  'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 836MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+167.1  LB-GSM850  'Vramp scaling over temperature and Vbatt. Vramp limiter @ Prated=[]dBm' ymin_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+168.1  LB-EGSM900 'Max. Output Power Nominal @ Prated=[]dBm' ymin_at_xval Limit   '33.3' = 33.3    Meas = 33.691727    (33.692,33.800,33.912)  PASS mgn:0.392 (0/2)
+168.2  LB-EGSM900 'Max. Output Power Nominal @ Prated=[]dBm'  avg_at_xval Limit   '34.0' = 34.0    Meas = 33.8004318333 (33.692,33.800,33.912)   mgn:0.200 (2)
+169.1  LB-EGSM900 'Max. Output Power Nominal Multislot @ Prated=[]dBm' ymin_at_xval Limit   '30.0' = 30.0    Meas = 33.691727    (33.692,33.800,33.912)  PASS mgn:3.692 (0/2)
+170.1  LB-EGSM900 'Max. Output Power Extreme
+@ VBAT = 3.0V @ Prated=[]dBm' ymin_at_xval Limit   '30.5' = 30.5    Meas = 32.389362    (32.389,33.701,34.932)  PASS* mgn:1.889 (0/2)
+172.2  LB-EGSM900 'Power variation into 3:1 VSWR @ Prated=[]dBm' max_ymaxdiff Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+173.1  LB-EGSM900 'Min Power @ VSWR 3:1 @ Prated=[]dBm'     min_ymin Limit   '30.0' = 30.0    Meas = None         (                    )  NO_DATA
+174.1  LB-EGSM900 'Maximum current @ VSWR 3:1 @ Prated=[]dBm'     max_ymax Limit    '1.6' = 1.6     Meas = None         (                    )  NO_DATA
+175.1  LB-EGSM900 'PAE Max @ Prated=[]dBm'     min_ymax Limit   '45.0' = 45.0    Meas = 44.445588794 (44.446,45.076,45.665)  FAIL mgn:0.554 (0/2)
+175.2  LB-EGSM900 'PAE Max @ Prated=[]dBm'     avg_ymax Limit   '48.0' = 48.0    Meas = 45.0758356601 (44.446,45.076,45.665)   mgn:2.924 (2)
+176.1  LB-EGSM900 'PAE @ Ref2 Pout = 33 dBm @ Prated=[]dBm' ymin_at_xval Limit   '44.0' = 44.0    Meas = 44.4443867374 (44.444,44.965,45.381)  PASS mgn:0.444 (0/2)
+176.2  LB-EGSM900 'PAE @ Ref2 Pout = 33 dBm @ Prated=[]dBm'  avg_at_xval Limit   '47.0' = 47.0    Meas = 44.9652770464 (44.444,44.965,45.381)   mgn:2.035 (2)
+177.1  LB-EGSM900 'PAE @ Ref2 Pout = 29 dBm @ Prated=[]dBm' ymin_at_xval Limit   '32.0' = 32.0    Meas = 32.8422468209 (32.842,33.144,33.428)  PASS mgn:0.842 (0/2)
+177.2  LB-EGSM900 'PAE @ Ref2 Pout = 29 dBm @ Prated=[]dBm'  avg_at_xval Limit   '35.0' = 35.0    Meas = 33.1436091118 (32.842,33.144,33.428)   mgn:1.856 (2)
+178.1  LB-EGSM900 'Current @ Ref2 Pout = 5 dBm @ Prated=[]dBm' ymax_at_xval Limit   '85.0' = 85.0    Meas = 73.4854181584 (72.732,73.046,73.485)  PASS mgn:11.515 (0/2)
+180.1  LB-EGSM900 '925-935 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-76.0' = -76.0   Meas = None         (                    )  NO_DATA
+180.2  LB-EGSM900 '925-935 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-72.0' = -72.0   Meas = None         (                    )  NO_DATA
+181.1  LB-EGSM900 '935-960 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-86.0' = -86.0   Meas = None         (                    )  NO_DATA
+181.2  LB-EGSM900 '935-960 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-84.0' = -84.0   Meas = None         (                    )  NO_DATA
+182.1  LB-EGSM900 '1805-1880 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-82.0' = -82.0   Meas = None         (                    )  NO_DATA
+182.2  LB-EGSM900 '1805-1880 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-80.0' = -80.0   Meas = None         (                    )  NO_DATA
+183.1  LB-EGSM900 '925-935 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-73.0' = -73.0   Meas = None         (                    )  NO_DATA
+183.2  LB-EGSM900 '925-935 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-69.0' = -69.0   Meas = None         (                    )  NO_DATA
+184.1  LB-EGSM900 '935-960 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-83.0' = -83.0   Meas = None         (                    )  NO_DATA
+184.2  LB-EGSM900 '935-960 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-81.0' = -81.0   Meas = None         (                    )  NO_DATA
+185.1  LB-EGSM900 '1805-1880 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-79.0' = -79.0   Meas = None         (                    )  NO_DATA
+185.2  LB-EGSM900 '1805-1880 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-77.0' = -77.0   Meas = None         (                    )  NO_DATA
+186a.1  LB-EGSM900 'Maximum Control slope @ Prated=[]dBm' ymin_at_xrange Limit    '0.0' = 0.0     Meas = 1.89744598662 (   1.897,3.018,4.347)  PASS* mgn:1.897 (0/2)
+186a.2  LB-EGSM900 'Maximum Control slope @ Prated=[]dBm' ymax_at_xrange Limit  '350.0' = 350.0   Meas = 290.2735405  (271.538,281.975,290.274)  PASS* mgn:59.726 (0/2)
+187.1  LB-EGSM900 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-55.0' = -55.0   Meas = -70.5093333333 (-70.755,-70.509,-70.023)  ** mgn:15.509 (0/1)
+187.2  LB-EGSM900 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-40.0' = -40.0   Meas = -70.023003   (-70.755,-70.509,-70.023)  PASS** mgn:30.023 (0/1)
+187.1  LB-EGSM900 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-55.0' = -55.0   Meas = -70.7516666667 (-71.014,-70.752,-70.434)  *** mgn:15.752 (0/1)
+187.2  LB-EGSM900 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-40.0' = -40.0   Meas = -70.434      (-71.014,-70.752,-70.434)  PASS*** mgn:30.434 (0/1)
+188.1  LB-EGSM900 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-25.0' = -25.0   Meas = -46.8243333333 (-47.104,-46.824,-46.509)  *** mgn:21.824 (0/1)
+188.2  LB-EGSM900 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-22.0' = -22.0   Meas = -46.509      (-47.104,-46.824,-46.509)  PASS*** mgn:24.509 (0/1)
+188.1  LB-EGSM900 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-25.0' = -25.0   Meas = -46.682667   (-47.087,-46.683,-46.468)  ** mgn:21.683 (0/1)
+188.2  LB-EGSM900 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-22.0' = -22.0   Meas = -46.467999   (-47.087,-46.683,-46.468)  PASS** mgn:24.468 (0/1)
+189.1  LB-EGSM900 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -47.1459816481 (-49.017,-47.146,-44.993)   mgn:7.146 (2)
+189.2  LB-EGSM900 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -44.993      (-49.017,-47.146,-44.993)  PASS mgn:10.993 (0/2)
+190.1  LB-EGSM900 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -38.3082406481 (-41.155,-38.308,-35.035)   mgn:1.692 (2)
+190.2  LB-EGSM900 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -35.035      (-41.155,-38.308,-35.035)  PASS mgn:1.035 (0/2)
+191.1  LB-EGSM900 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -42.7572779074 (-43.785,-42.757,-41.986)   mgn:2.757 (2)
+191.2  LB-EGSM900 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -41.986      (-43.785,-42.757,-41.986)  PASS mgn:7.986 (0/2)
+192.1  LB-EGSM900 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -44.0749813889 (-45.537,-44.075,-41.908)   mgn:4.075 (2)
+192.2  LB-EGSM900 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -41.908001   (-45.537,-44.075,-41.908)  PASS mgn:7.908 (0/2)
+193.1  LB-EGSM900 '6th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -51.4552036481 (-52.636,-51.455,-50.347)   mgn:11.455 (2)
+193.2  LB-EGSM900 '6th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -50.347      (-52.636,-51.455,-50.347)  PASS mgn:16.347 (0/2)
+194.1  LB-EGSM900 '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -48.2316852222 (-49.682,-48.232,-47.120)   mgn:8.232 (2)
+194.2  LB-EGSM900 '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -47.119999   (-49.682,-48.232,-47.120)  PASS mgn:13.120 (0/2)
+195.1  LB-EGSM900 '8th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -40.9217038519 (-42.649,-40.922,-38.379)   mgn:0.922 (2)
+195.2  LB-EGSM900 '8th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -38.379      (-42.649,-40.922,-38.379)  PASS mgn:4.379 (0/2)
+196.1  LB-EGSM900 '9th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -35.6958332778 (-40.629,-35.696,-30.047)   mgn:4.304 (2)
+196.2  LB-EGSM900 '9th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -30.047      (-40.629,-35.696,-30.047)  FAIL mgn:3.953 (0/2)
+197.1  LB-EGSM900 '10th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -37.5496298148 (-42.592,-37.550,-31.630)   mgn:2.450 (2)
+197.2  LB-EGSM900 '10th Harmonic Distortion at Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -31.63       (-42.592,-37.550,-31.630)  FAIL mgn:2.370 (0/2)
+198.1  LB-EGSM900 '11th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -45.6218147407 (-47.095,-45.622,-43.498)   mgn:5.622 (2)
+198.2  LB-EGSM900 '11th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -43.498      (-47.095,-45.622,-43.498)  PASS mgn:9.498 (0/2)
+199.1  LB-EGSM900 '12th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -43.5636666296 (-46.486,-43.564,-41.515)   mgn:3.564 (2)
+199.2  LB-EGSM900 '12th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -41.514999   (-46.486,-43.564,-41.515)  PASS mgn:7.515 (0/2)
+200.1  LB-EGSM900 '13th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -39.6068332037 (-44.191,-39.607,-37.134)   mgn:0.393 (2)
+200.2  LB-EGSM900 '13th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -37.134      (-44.191,-39.607,-37.134)  PASS mgn:3.134 (0/2)
+201.1  LB-EGSM900 '14th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -35.6308055556 (-38.107,-35.631,-33.143)   mgn:4.369 (2)
+201.2  LB-EGSM900 '14th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -33.143      (-38.107,-35.631,-33.143)  FAIL mgn:0.857 (0/2)
+202.1  LB-EGSM900 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -47.1459816481 (-49.017,-47.146,-44.993)  * mgn:12.146 (0/2)
+202.2  LB-EGSM900 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -44.993      (-49.017,-47.146,-44.993)  PASS* mgn:15.993 (0/2)
+203.1  LB-EGSM900 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -38.3082406481 (-41.155,-38.308,-35.035)  * mgn:3.308 (0/2)
+203.2  LB-EGSM900 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -35.035      (-41.155,-38.308,-35.035)  PASS* mgn:6.035 (0/2)
+204.1  LB-EGSM900 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -42.7572779074 (-43.785,-42.757,-41.986)  * mgn:7.757 (0/2)
+204.2  LB-EGSM900 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -41.986      (-43.785,-42.757,-41.986)  PASS* mgn:12.986 (0/2)
+205.1  LB-EGSM900 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -44.0749813889 (-45.537,-44.075,-41.908)  * mgn:9.075 (0/2)
+205.2  LB-EGSM900 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -41.908001   (-45.537,-44.075,-41.908)  PASS* mgn:12.908 (0/2)
+206.1  LB-EGSM900 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -51.4552036481 (-52.636,-51.455,-50.347)  * mgn:16.455 (0/2)
+206.2  LB-EGSM900 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -50.347      (-52.636,-51.455,-50.347)  PASS* mgn:21.347 (0/2)
+207.1  LB-EGSM900 '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -48.2316852222 (-49.682,-48.232,-47.120)  * mgn:13.232 (0/2)
+207.2  LB-EGSM900 '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -47.119999   (-49.682,-48.232,-47.120)  PASS* mgn:18.120 (0/2)
+208.1  LB-EGSM900 '8th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -40.9217038519 (-42.649,-40.922,-38.379)  * mgn:5.922 (0/2)
+208.2  LB-EGSM900 '8th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -38.379      (-42.649,-40.922,-38.379)  PASS* mgn:9.379 (0/2)
+209.1  LB-EGSM900 '9th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -35.6958332778 (-40.629,-35.696,-30.047)  * mgn:0.696 (0/2)
+209.2  LB-EGSM900 '9th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -30.047      (-40.629,-35.696,-30.047)  PASS* mgn:1.047 (0/2)
+210.1  LB-EGSM900 '10th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -37.5496298148 (-42.592,-37.550,-31.630)  * mgn:2.550 (0/2)
+210.2  LB-EGSM900 '10th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -31.63       (-42.592,-37.550,-31.630)  PASS* mgn:2.630 (0/2)
+211.1  LB-EGSM900 '11th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -45.6218147407 (-47.095,-45.622,-43.498)  * mgn:10.622 (0/2)
+211.2  LB-EGSM900 '11th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -43.498      (-47.095,-45.622,-43.498)  PASS* mgn:14.498 (0/2)
+212.1  LB-EGSM900 '12th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -43.5636666296 (-46.486,-43.564,-41.515)  * mgn:8.564 (0/2)
+212.2  LB-EGSM900 '12th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -41.514999   (-46.486,-43.564,-41.515)  PASS* mgn:12.515 (0/2)
+213.1  LB-EGSM900 '13th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -39.6068332037 (-44.191,-39.607,-37.134)  * mgn:4.607 (0/2)
+213.2  LB-EGSM900 '13th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -37.134      (-44.191,-39.607,-37.134)  PASS* mgn:8.134 (0/2)
+214.1  LB-EGSM900 '14th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -35.6308055556 (-38.107,-35.631,-33.143)  * mgn:0.631 (0/2)
+214.2  LB-EGSM900 '14th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -33.143      (-38.107,-35.631,-33.143)  PASS* mgn:4.143 (0/2)
+215.1  LB-EGSM900 'All Other Non-Harmonic Spurious 100 kHz to 1GHz, Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = -42.787      (-48.526,-45.053,-42.787)  PASS* mgn:0.787 (0/2)
+216.1  LB-EGSM900 'All Other Non-Harmonic Spurious 100 kHz to 1GHz, Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-37.0' = -37.0   Meas = -42.787      (-48.526,-45.053,-42.787)  PASS** mgn:5.787 (0/2)
+217.1  LB-EGSM900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = -44.4377975505 (-45.632,-45.031,-44.438)  PASS* mgn:8.438 (0/2)
+217.2  LB-EGSM900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Nominal Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-42.0' = -42.0   Meas = -45.7249059199 (-47.079,-45.725,-45.116)  * mgn:3.725 (0/2)
+218.1  LB-EGSM900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-31.0' = -31.0   Meas = -44.4377975505 (-45.632,-45.031,-44.438)  PASS** mgn:13.438 (0/2)
+218.2  LB-EGSM900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz, Extreme Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-37.0' = -37.0   Meas = -45.7249059199 (-47.079,-45.725,-45.116)  ** mgn:8.725 (0/2)
+219.1  LB-EGSM900 'Output Load VSWR Stability 100 kHz to 1GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+220.1  LB-EGSM900 'Output Load VSWR Stability 1GHz to 12.75 GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+221.1  LB-EGSM900 'Output Load VSWR Stability 100 kHz to 1GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+222.1  LB-EGSM900 'Output Load VSWR Stability 1GHz to 12.75 GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+231.1  LB-EGSM900 '-400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = -36.5113945007 (-38.377,-37.395,-36.511)  PASS mgn:8.511 (0/2)
+232.1  LB-EGSM900 '+400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = -33.121131897 (-34.119,-33.660,-33.121)  PASS mgn:5.121 (0/2)
+233.1  LB-EGSM900 '-600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -40.7998123169 (-43.703,-42.254,-40.800)  PASS mgn:9.800 (0/2)
+234.1  LB-EGSM900 '+600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -38.812651   (-41.433,-40.378,-38.813)  PASS mgn:7.813 (0/2)
+235.1  LB-EGSM900 '-1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-37.0' = -37.0   Meas = -51.1770706177 (-55.025,-53.350,-51.177)  PASS mgn:14.177 (0/2)
+236.1  LB-EGSM900 '+1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-37.0' = -37.0   Meas = -51.1770706177 (-55.025,-53.196,-51.177)  PASS mgn:14.177 (0/2)
+237.1  LB-EGSM900 '-1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-41.0' = -41.0   Meas = -54.1793289185 (-56.853,-55.623,-54.179)  PASS mgn:13.179 (0/2)
+238.1  LB-EGSM900 '+1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-41.0' = -41.0   Meas = -53.137298   (-56.583,-54.779,-53.137)  PASS mgn:12.137 (0/2)
+240.1  LB-EGSM900 '-400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-24.0' = -24.0   Meas = -30.640407   (-39.471,-35.641,-30.640)  PASS* mgn:6.640 (0/2)
+241.1  LB-EGSM900 '+400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-24.0' = -24.0   Meas = -30.640407   (-34.119,-32.540,-30.640)  PASS* mgn:6.640 (0/2)
+242.1  LB-EGSM900 '-600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-26.0' = -26.0   Meas = -33.8678894043 (-46.168,-40.606,-33.868)  PASS* mgn:7.868 (0/2)
+243.1  LB-EGSM900 '+600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-26.0' = -26.0   Meas = -33.8678894043 (-41.433,-38.416,-33.868)  PASS* mgn:7.868 (0/2)
+244.1  LB-EGSM900 '-1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = -43.085572   (-56.304,-50.694,-43.086)  PASS* mgn:15.086 (0/2)
+245.1  LB-EGSM900 '+1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-28.0' = -28.0   Meas = -43.085572   (-55.854,-50.547,-43.086)  PASS* mgn:15.086 (0/2)
+246.1  LB-EGSM900 '-1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = -48.4289970398 (-57.114,-54.119,-48.429)  PASS* mgn:16.429 (0/2)
+247.1  LB-EGSM900 '+1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = -48.4289970398 (-57.114,-53.478,-48.429)  PASS* mgn:16.429 (0/2)
+249.1  LB-EGSM900 'Power var over Input Power @ Prated=[]dBm' ymin_at_xrange Limit   '-0.5' = -0.5    Meas = -0.075403    ( -0.075,-0.023,0.001)  PASS mgn:0.425 (0/2)
+249.2  LB-EGSM900 'Power var over Input Power @ Prated=[]dBm' ymax_at_xrange Limit    '0.5' = 0.5     Meas = 0.112738     (   0.000,0.034,0.113)  PASS mgn:0.387 (0/2)
+250.1  LB-EGSM900 'Power var over Vbat @ Prated=[]dBm' ymin_at_xrange Limit   '-1.1' = -1.1    Meas = -0.1220882   ( -0.122,-0.056,0.000)  PASS mgn:0.978 (0/2)
+250.2  LB-EGSM900 'Power var over Vbat @ Prated=[]dBm' ymax_at_xrange Limit    '1.1' = 1.1     Meas = 0.636704588265 (   0.000,0.267,0.637)  PASS mgn:0.463 (0/2)
+251.1  LB-EGSM900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.342395253854 (-0.342,-0.316,-0.286)  PASS mgn:0.658 (0/2)
+251.2  LB-EGSM900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.1247322    (   0.097,0.111,0.125)  PASS mgn:0.875 (0/2)
+251.1  LB-EGSM900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.342395253854 (-0.342,-0.316,-0.286)  PASS mgn:0.658 (0/2)
+251.2  LB-EGSM900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.1247322    (   0.097,0.111,0.125)  PASS mgn:0.875 (0/2)
+252.1  LB-EGSM900 'Power var over Temperature, High Power @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.009842    ( -0.010,-0.005,0.000)  PASS* mgn:0.990 (0/2)
+252.2  LB-EGSM900 'Power var over Temperature, High Power @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.009856     (   0.000,0.002,0.010)  PASS* mgn:0.990 (0/2)
+253.1  LB-EGSM900 'Power var over Temperature, Low Power @ Prated=[]dBm' ymin_at_xrange Limit   '-2.5' = -2.5    Meas = -0.00249062748604 ( -0.002,-0.000,0.000)  PASS* mgn:2.498 (0/2)
+253.2  LB-EGSM900 'Power var over Temperature, Low Power @ Prated=[]dBm' ymax_at_xrange Limit    '2.5' = 2.5     Meas = 0.0078567782624 (   0.000,0.002,0.008)  PASS* mgn:2.492 (0/2)
+254.1  LB-EGSM900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit  '-1.75' = -1.75   Meas = -0.270323    ( -0.270,-0.108,0.015)  PASS* mgn:1.480 (0/2)
+254.2  LB-EGSM900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit   '1.75' = 1.75    Meas = 0.556177391568 (   0.000,0.313,0.556)  PASS* mgn:1.194 (0/2)
+255.1  LB-EGSM900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-3.0' = -3.0    Meas = -0.545238    ( -0.545,-0.076,0.312)  PASS* mgn:2.455 (0/2)
+255.2  LB-EGSM900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '3.0' = 3.0     Meas = 0.42586044   (  -0.233,0.074,0.426)  PASS* mgn:2.574 (0/2)
+256.1  LB-EGSM900 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-1.5' = -1.5    Meas = -0.598312211461 (-0.598,-0.575,-0.552)  PASS* mgn:0.902 (0/2)
+256.2  LB-EGSM900 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 898MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = 0.3346922    (  -0.113,0.107,0.335)  PASS* mgn:1.165 (0/2)
+258.1  LB-EGSM900 'Vramp scaling over temperature and Vbatt. Vramp limiter @ Prated=[]dBm' ymin_at_xrange Limit    '1.0' = 1.0     Meas = 1.0          (   1.000,1.000,1.000)  PASS* mgn:0.000 (0/2)
+259.1  HB-DCS1800 'Max. Output Power Nominal @ Prated=[]dBm' ymin_at_xval Limit   '30.5' = 30.5    Meas = 31.521309    (31.521,31.673,31.831)  PASS mgn:1.021 (0/2)
+259.2  HB-DCS1800 'Max. Output Power Nominal @ Prated=[]dBm'  avg_at_xval Limit   '31.0' = 31.0    Meas = 31.6732457278 (31.521,31.673,31.831)   mgn:0.673 (2)
+260.1  HB-DCS1800 'Max. Output Power Nominal Multislot @ Prated=[]dBm' ymin_at_xval Limit   '27.0' = 27.0    Meas = 31.521309    (31.521,31.673,31.831)  PASS mgn:4.521 (0/2)
+261.1  HB-DCS1800 'Max. Output Power Extreme
+At VBATT = 3.0V @ Prated=[]dBm' ymin_at_xval Limit   '28.5' = 28.5    Meas = 30.194931    (30.195,31.686,33.127)  PASS* mgn:1.695 (0/2)
+263.2  HB-DCS1800 'Power variation into 3:1 VSWR @ Prated=[]dBm' max_ymaxdiff Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+264.1  HB-DCS1800 'Min Power @ VSWR 3:1 @ Prated=[]dBm'     min_ymin Limit   '27.0' = 27.0    Meas = None         (                    )  NO_DATA
+265.1  HB-DCS1800 'Maximum current @ VSWR 3:1 @ Prated=[]dBm'     max_ymax Limit    '1.2' = 1.2     Meas = None         (                    )  NO_DATA
+266.1  HB-DCS1800 'PAE Max @ Prated=[]dBm'     min_ymax Limit   '38.0' = 38.0    Meas = 39.672694    (39.673,40.269,40.843)  PASS mgn:1.673 (0/2)
+266.2  HB-DCS1800 'PAE Max @ Prated=[]dBm'     avg_ymax Limit   '41.0' = 41.0    Meas = 40.26879999  (39.673,40.269,40.843)   mgn:0.731 (2)
+267.1  HB-DCS1800 'PAE @ Pout = 30 dBm @ Prated=[]dBm' ymin_at_xval Limit   '37.0' = 37.0    Meas = 38.7054483233 (38.705,38.851,38.964)  PASS mgn:1.705 (0/2)
+267.2  HB-DCS1800 'PAE @ Pout = 30 dBm @ Prated=[]dBm'  avg_at_xval Limit   '40.0' = 40.0    Meas = 38.8509084337 (38.705,38.851,38.964)   mgn:1.149 (2)
+268.1  HB-DCS1800 'PAE @ Pout = 28 dBm @ Prated=[]dBm' ymin_at_xval Limit   '31.0' = 31.0    Meas = 32.4730836254 (32.473,32.714,32.918)  PASS mgn:1.473 (0/2)
+268.2  HB-DCS1800 'PAE @ Pout = 28 dBm @ Prated=[]dBm'  avg_at_xval Limit   '34.0' = 34.0    Meas = 32.7141391181 (32.473,32.714,32.918)   mgn:1.286 (2)
+269.1  HB-DCS1800 'Current @ Ref2 Pout = 0 dBm @ Prated=[]dBm' ymax_at_xval Limit   '80.0' = 80.0    Meas = 63.6331671178 (62.380,63.151,63.633)  PASS mgn:16.367 (0/2)
+271.1  HB-DCS1800 '925-960 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-86.0' = -86.0   Meas = None         (                    )  NO_DATA
+271.2  HB-DCS1800 '925-960 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-84.0' = -84.0   Meas = None         (                    )  NO_DATA
+272.1  HB-DCS1800 '1805-1880 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-82.0' = -82.0   Meas = None         (                    )  NO_DATA
+272.2  HB-DCS1800 '1805-1880 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-80.0' = -80.0   Meas = None         (                    )  NO_DATA
+273.1  HB-DCS1800 '925-960 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-83.0' = -83.0   Meas = None         (                    )  NO_DATA
+273.2  HB-DCS1800 '925-960 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-81.0' = -81.0   Meas = None         (                    )  NO_DATA
+274.1  HB-DCS1800 '1805-1880 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-79.0' = -79.0   Meas = None         (                    )  NO_DATA
+274.2  HB-DCS1800 '1805-1880 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-77.0' = -77.0   Meas = None         (                    )  NO_DATA
+275a.1  HB-DCS1800 'Maximum Control slope @ Prated=[]dBm' ymin_at_xrange Limit    '0.0' = 0.0     Meas = 4.2282271878 (   4.228,7.041,9.319)  PASS* mgn:4.228 (0/2)
+275a.2  HB-DCS1800 'Maximum Control slope @ Prated=[]dBm' ymax_at_xrange Limit  '350.0' = 350.0   Meas = 305.178930414 (278.246,291.324,305.179)  PASS* mgn:44.821 (0/2)
+276.1  HB-DCS1800 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-60.0' = -60.0   Meas = -62.6410003333 (-62.995,-62.641,-62.450)  ** mgn:2.641 (0/1)
+276.2  HB-DCS1800 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-52.0' = -52.0   Meas = -62.450001   (-62.995,-62.641,-62.450)  PASS** mgn:10.450 (0/1)
+276.1  HB-DCS1800 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-60.0' = -60.0   Meas = -63.553      (-63.823,-63.553,-63.387)  *** mgn:3.553 (0/1)
+276.2  HB-DCS1800 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-52.0' = -52.0   Meas = -63.387      (-63.823,-63.553,-63.387)  PASS*** mgn:11.387 (0/1)
+277.1  HB-DCS1800 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-30.0' = -30.0   Meas = -37.643      (-37.811,-37.643,-37.464)  *** mgn:7.643 (0/1)
+277.2  HB-DCS1800 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-25.0' = -25.0   Meas = -37.464      (-37.811,-37.643,-37.464)  PASS*** mgn:12.464 (0/1)
+277.1  HB-DCS1800 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-30.0' = -30.0   Meas = -36.7003326667 (-36.843,-36.700,-36.512)  ** mgn:6.700 (0/1)
+277.2  HB-DCS1800 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-25.0' = -25.0   Meas = -36.512001   (-36.843,-36.700,-36.512)  PASS** mgn:11.512 (0/1)
+278.1  HB-DCS1800 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -34.4332592407 (-37.460,-34.433,-31.298)   mgn:5.567 (2)
+278.2  HB-DCS1800 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -31.298      (-37.460,-34.433,-31.298)  FAIL mgn:2.702 (0/2)
+279.1  HB-DCS1800 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -40.7756666111 (-46.345,-40.776,-34.574)   mgn:0.776 (2)
+279.2  HB-DCS1800 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -34.574001   (-46.345,-40.776,-34.574)  PASS mgn:0.574 (0/2)
+280.1  HB-DCS1800 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -43.4900368333 (-46.375,-43.490,-40.562)   mgn:3.490 (2)
+280.2  HB-DCS1800 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -40.562      (-46.375,-43.490,-40.562)  PASS mgn:6.562 (0/2)
+281.1  HB-DCS1800 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -40.7227036667 (-43.324,-40.723,-37.371)   mgn:0.723 (2)
+281.2  HB-DCS1800 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -37.371      (-43.324,-40.723,-37.371)  PASS mgn:3.371 (0/2)
+282.1  HB-DCS1800 '6th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -45.9187593333 (-47.417,-45.919,-44.168)   mgn:5.919 (2)
+282.2  HB-DCS1800 '6th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -44.167999   (-47.417,-45.919,-44.168)  PASS mgn:10.168 (0/2)
+283.1  HB-DCS1800 '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = -44.7786294444 (-46.107,-44.779,-42.491)   mgn:4.779 (2)
+283.2  HB-DCS1800 '7th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -42.491      (-46.107,-44.779,-42.491)  PASS mgn:8.491 (0/2)
+284.1  HB-DCS1800 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -34.4332592407 (-37.460,-34.433,-31.298)  * mgn:0.567 (0/2)
+284.2  HB-DCS1800 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -31.298      (-37.460,-34.433,-31.298)  PASS* mgn:0.298 (0/2)
+285.1  HB-DCS1800 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -40.7756666111 (-46.345,-40.776,-34.574)  * mgn:5.776 (0/2)
+285.2  HB-DCS1800 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -34.574001   (-46.345,-40.776,-34.574)  PASS* mgn:3.574 (0/2)
+286.1  HB-DCS1800 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -43.4900368333 (-46.375,-43.490,-40.562)  * mgn:8.490 (0/2)
+286.2  HB-DCS1800 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -40.562      (-46.375,-43.490,-40.562)  PASS* mgn:9.562 (0/2)
+287.1  HB-DCS1800 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -40.7227036667 (-43.324,-40.723,-37.371)  * mgn:5.723 (0/2)
+287.2  HB-DCS1800 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -37.371      (-43.324,-40.723,-37.371)  PASS* mgn:6.371 (0/2)
+288.1  HB-DCS1800 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -45.9187593333 (-47.417,-45.919,-44.168)  * mgn:10.919 (0/2)
+288.2  HB-DCS1800 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -44.167999   (-47.417,-45.919,-44.168)  PASS* mgn:13.168 (0/2)
+289.1  HB-DCS1800 '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = -44.7786294444 (-46.107,-44.779,-42.491)  * mgn:9.779 (0/2)
+289.2  HB-DCS1800 '7th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -42.491      (-46.107,-44.779,-42.491)  PASS* mgn:11.491 (0/2)
+290.1  HB-DCS1800 'All Other Non-Harmonic Spurious 100 kHz to 1GHz Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = -48.3086176802 (-48.719,-48.505,-48.309)  PASS* mgn:6.309 (0/2)
+291.1  HB-DCS1800 'All Other Non-Harmonic Spurious 100 kHz to 1GHz Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-37.0' = -37.0   Meas = -48.3086176802 (-48.719,-48.505,-48.309)  PASS** mgn:11.309 (0/2)
+292.1  HB-DCS1800 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = -43.6599998474 (-45.938,-45.447,-43.660)  PASS* mgn:7.660 (0/2)
+292.2  HB-DCS1800 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Nominal Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-42.0' = -42.0   Meas = -46.9763936375 (-47.289,-46.976,-46.100)  * mgn:4.976 (0/1)
+293.1  HB-DCS1800 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-31.0' = -31.0   Meas = -43.6599998474 (-45.938,-45.447,-43.660)  PASS** mgn:12.660 (0/2)
+293.2  HB-DCS1800 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Extreme Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-37.0' = -37.0   Meas = -46.9763936375 (-47.289,-46.976,-46.100)  ** mgn:9.976 (0/1)
+294.1  HB-DCS1800 'Output Load VSWR Stability 100 kHz to 1GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+295.1  HB-DCS1800 'Output Load VSWR Stability 1GHz to 12.75 GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+296.1  HB-DCS1800 'Output Load VSWR Stability 100 kHz to 1GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+297.1  HB-DCS1800 'Output Load VSWR Stability 1GHz to 12.75 GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+306.1  HB-DCS1800 '-400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -39.871679   (-41.255,-40.665,-39.872)  PASS mgn:8.872 (0/2)
+307.1  HB-DCS1800 '+400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = -38.5121803284 (-40.645,-39.946,-38.512)  PASS mgn:7.512 (0/2)
+308.1  HB-DCS1800 '-600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -45.0033111572 (-46.290,-45.596,-45.003)  PASS mgn:11.003 (0/2)
+309.1  HB-DCS1800 '+600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = -45.0033111572 (-46.169,-45.545,-45.003)  PASS mgn:11.003 (0/2)
+310.1  HB-DCS1800 '-1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-40.0' = -40.0   Meas = -55.102919   (-57.458,-56.653,-55.103)  PASS mgn:15.103 (0/2)
+311.1  HB-DCS1800 '+1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-40.0' = -40.0   Meas = -55.102919   (-57.410,-56.437,-55.103)  PASS mgn:15.103 (0/2)
+312.1  HB-DCS1800 '-1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-44.0' = -44.0   Meas = -57.474559   (-59.773,-58.340,-57.475)  PASS mgn:13.475 (0/2)
+313.1  HB-DCS1800 '+1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-44.0' = -44.0   Meas = -57.0192146301 (-59.102,-58.191,-57.019)  PASS mgn:13.019 (0/2)
+315.1  HB-DCS1800 '-400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-27.0' = -27.0   Meas = -39.7057189941 (-41.936,-40.762,-39.706)  PASS* mgn:12.706 (0/2)
+316.1  HB-DCS1800 '+400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-27.0' = -27.0   Meas = -38.2174720764 (-40.645,-39.662,-38.217)  PASS* mgn:11.217 (0/2)
+317.1  HB-DCS1800 '-600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -43.5850143433 (-46.903,-45.500,-43.585)  PASS* mgn:14.585 (0/2)
+318.1  HB-DCS1800 '+600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = -43.5850143433 (-46.903,-45.396,-43.585)  PASS* mgn:14.585 (0/2)
+319.1  HB-DCS1800 '-1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = -54.341921   (-57.935,-56.499,-54.342)  PASS* mgn:22.342 (0/2)
+320.1  HB-DCS1800 '+1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = -53.730682373 (-57.813,-56.274,-53.731)  PASS* mgn:21.731 (0/2)
+321.1  HB-DCS1800 '-1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-35.0' = -35.0   Meas = -56.709072113 (-60.130,-58.429,-56.709)  PASS* mgn:21.709 (0/2)
+322.1  HB-DCS1800 '+1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-35.0' = -35.0   Meas = -56.540497   (-59.840,-58.241,-56.540)  PASS* mgn:21.540 (0/2)
+324.1  HB-DCS1800 'Power var over Input Power @ Prated=[]dBm' ymin_at_xrange Limit   '-0.5' = -0.5    Meas = -0.355744    ( -0.356,-0.107,0.027)  PASS mgn:0.144 (0/2)
+324.2  HB-DCS1800 'Power var over Input Power @ Prated=[]dBm' ymax_at_xrange Limit    '0.5' = 0.5     Meas = 0.222241     (  -0.040,0.043,0.222)  PASS mgn:0.278 (0/2)
+325.1  HB-DCS1800 'Power var over Vbat @ Prated=[]dBm' ymin_at_xrange Limit   '-1.1' = -1.1    Meas = -0.70115603169 ( -0.701,-0.243,0.000)  PASS mgn:0.399 (0/2)
+325.2  HB-DCS1800 'Power var over Vbat @ Prated=[]dBm' ymax_at_xrange Limit    '1.1' = 1.1     Meas = 0.179028220943 (   0.000,0.063,0.179)  PASS mgn:0.921 (0/2)
+326.1  HB-DCS1800 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.059831383113 (-0.060,-0.045,-0.033)  PASS mgn:0.940 (0/2)
+326.2  HB-DCS1800 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.037732     (   0.022,0.028,0.038)  PASS mgn:0.962 (0/2)
+326.1  HB-DCS1800 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.059831383113 (-0.060,-0.045,-0.033)  PASS mgn:0.940 (0/2)
+326.2  HB-DCS1800 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.037732     (   0.022,0.028,0.038)  PASS mgn:0.962 (0/2)
+327.1  HB-DCS1800 'Power var over Temperature, High Power @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = -0.020896    ( -0.021,-0.006,0.000)  PASS* mgn:0.979 (0/2)
+327.2  HB-DCS1800 'Power var over Temperature, High Power @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = 0.009586     (   0.000,0.002,0.010)  PASS* mgn:0.990 (0/2)
+328.1  HB-DCS1800 'Power var over Temperature, Low Power @ Prated=[]dBm' ymin_at_xrange Limit   '-2.5' = -2.5    Meas = -0.009577    ( -0.010,-0.002,0.000)  PASS* mgn:2.490 (0/2)
+328.2  HB-DCS1800 'Power var over Temperature, Low Power @ Prated=[]dBm' ymax_at_xrange Limit    '2.5' = 2.5     Meas = 0.025961     (   0.000,0.007,0.026)  PASS* mgn:2.474 (0/2)
+329.1  HB-DCS1800 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit  '-1.75' = -1.75   Meas = -0.213505186187 ( -0.214,-0.070,0.023)  PASS* mgn:1.536 (0/2)
+329.2  HB-DCS1800 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit   '1.75' = 1.75    Meas = 0.175571663637 (  -0.040,0.064,0.176)  PASS* mgn:1.574 (0/2)
+330.1  HB-DCS1800 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-3.0' = -3.0    Meas = -0.5334418156 ( -0.533,-0.139,0.053)  PASS* mgn:2.467 (0/2)
+330.2  HB-DCS1800 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '3.0' = 3.0     Meas = 0.415143470917 (  -0.214,0.047,0.415)  PASS* mgn:2.585 (0/2)
+331.1  HB-DCS1800 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-1.5' = -1.5    Meas = -0.237465223343 (-0.237,-0.184,-0.137)  PASS* mgn:1.263 (0/2)
+331.2  HB-DCS1800 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1748MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = 0.081602     (  -0.043,0.019,0.082)  PASS* mgn:1.418 (0/2)
+333.1  HB-DCS1800 'Vramp scaling over temperature and Vbatt. Vramp limiter @ Prated=[]dBm' ymin_at_xrange Limit    '1.0' = 1.0     Meas = 1.0          (   1.000,1.000,1.000)  PASS* mgn:0.000 (0/2)
+334.1  HB-PCS1900 'Max. Output Power Nominal @ Prated=[]dBm' ymin_at_xval Limit   '30.5' = 30.5    Meas = None         (                    )  NO_DATA
+334.2  HB-PCS1900 'Max. Output Power Nominal @ Prated=[]dBm'  avg_at_xval Limit   '31.0' = 31.0    Meas = None         (                    )  NO_DATA
+335.1  HB-PCS1900 'Max. Output Power Nominal Multislot @ Prated=[]dBm' ymin_at_xval Limit   '27.0' = 27.0    Meas = None         (                    )  NO_DATA
+336.1  HB-PCS1900 'Max. Output Power Extreme
+At VBATT = 3.0V @ Prated=[]dBm' ymin_at_xval Limit   '28.5' = 28.5    Meas = None         (                    )  NO_DATA
+338.2  HB-PCS1900 'Power variation into 3:1 VSWR @ Prated=[]dBm' max_ymaxdiff Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+339.1  HB-PCS1900 'Min Power @ VSWR 3:1 @ Prated=[]dBm'     min_ymin Limit   '27.0' = 27.0    Meas = None         (                    )  NO_DATA
+340.1  HB-PCS1900 'Maximum current @ VSWR 3:1 @ Prated=[]dBm'     max_ymax Limit    '1.2' = 1.2     Meas = None         (                    )  NO_DATA
+341.1  HB-PCS1900 'PAE Max @ Prated=[]dBm'     min_ymax Limit   '38.0' = 38.0    Meas = None         (                    )  NO_DATA
+341.2  HB-PCS1900 'PAE Max @ Prated=[]dBm'     avg_ymax Limit   '41.0' = 41.0    Meas = None         (                    )  NO_DATA
+342.1  HB-PCS1900 'PAE @ Pout = 30 dBm @ Prated=[]dBm' ymin_at_xval Limit   '37.0' = 37.0    Meas = None         (                    )  NO_DATA
+342.2  HB-PCS1900 'PAE @ Pout = 30 dBm @ Prated=[]dBm'  avg_at_xval Limit   '40.0' = 40.0    Meas = None         (                    )  NO_DATA
+343.1  HB-PCS1900 'PAE @ Pout = 28 dBm @ Prated=[]dBm' ymin_at_xval Limit   '31.0' = 31.0    Meas = None         (                    )  NO_DATA
+343.2  HB-PCS1900 'PAE @ Pout = 28 dBm @ Prated=[]dBm'  avg_at_xval Limit   '34.0' = 34.0    Meas = None         (                    )  NO_DATA
+344.1  HB-PCS1900 'Current @ Ref2 Pout = 0 dBm @ Prated=[]dBm' ymax_at_xval Limit   '80.0' = 80.0    Meas = None         (                    )  NO_DATA
+346.1  HB-PCS1900 '869-894 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-86.0' = -86.0   Meas = None         (                    )  NO_DATA
+346.2  HB-PCS1900 '869-894 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-84.0' = -84.0   Meas = None         (                    )  NO_DATA
+347.1  HB-PCS1900 '1930-1990 MHz, Nominal @ Prated=[]dBm'     avg_ymax Limit  '-82.0' = -82.0   Meas = None         (                    )  NO_DATA
+347.2  HB-PCS1900 '1930-1990 MHz, Nominal @ Prated=[]dBm'         ymax Limit  '-80.0' = -80.0   Meas = None         (                    )  NO_DATA
+348.1  HB-PCS1900 '869-894 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-83.0' = -83.0   Meas = None         (                    )  NO_DATA
+348.2  HB-PCS1900 '869-894 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-81.0' = -81.0   Meas = None         (                    )  NO_DATA
+349.1  HB-PCS1900 '1930-1990 MHz, Extreme @ Prated=[]dBm'     avg_ymax Limit  '-79.0' = -79.0   Meas = None         (                    )  NO_DATA
+349.2  HB-PCS1900 '1930-1990 MHz, Extreme @ Prated=[]dBm'         ymax Limit  '-77.0' = -77.0   Meas = None         (                    )  NO_DATA
+350a.1  HB-PCS1900 'Maximum Control slope @ Prated=[]dBm' ymin_at_xrange Limit    '0.0' = 0.0     Meas = None         (                    )  NO_DATA
+350a.2  HB-PCS1900 'Maximum Control slope @ Prated=[]dBm' ymax_at_xrange Limit  '350.0' = 350.0   Meas = None         (                    )  NO_DATA
+351.1  HB-PCS1900 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-60.0' = -60.0   Meas = None         (                    )  NO_DATA
+351.2  HB-PCS1900 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-52.0' = -52.0   Meas = None         (                    )  NO_DATA
+351.1  HB-PCS1900 'Forward Isolation 1 @ Prated=[]dBm'     avg_ymax Limit  '-60.0' = -60.0   Meas = None         (                    )  NO_DATA
+351.2  HB-PCS1900 'Forward Isolation 1 @ Prated=[]dBm'         ymax Limit  '-52.0' = -52.0   Meas = None         (                    )  NO_DATA
+352.1  HB-PCS1900 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-30.0' = -30.0   Meas = None         (                    )  NO_DATA
+352.2  HB-PCS1900 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-25.0' = -25.0   Meas = None         (                    )  NO_DATA
+352.1  HB-PCS1900 'Forward Isolation 2 @ Prated=[]dBm'     avg_ymax Limit  '-30.0' = -30.0   Meas = None         (                    )  NO_DATA
+352.2  HB-PCS1900 'Forward Isolation 2 @ Prated=[]dBm'         ymax Limit  '-25.0' = -25.0   Meas = None         (                    )  NO_DATA
+353.1  HB-PCS1900 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+353.2  HB-PCS1900 '2nd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+354.1  HB-PCS1900 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+354.2  HB-PCS1900 '3rd Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+355.1  HB-PCS1900 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+355.2  HB-PCS1900 '4th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+356.1  HB-PCS1900 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+356.2  HB-PCS1900 '5th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+357.1  HB-PCS1900 '6th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     avg_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+357.2  HB-PCS1900 '6th Harmonic Distortion, Nominal Condition @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+359.1  HB-PCS1900 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+359.2  HB-PCS1900 '2nd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+360.1  HB-PCS1900 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+360.2  HB-PCS1900 '3rd Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+361.1  HB-PCS1900 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+361.2  HB-PCS1900 '4th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+362.1  HB-PCS1900 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+362.2  HB-PCS1900 '5th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+363.1  HB-PCS1900 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     avg_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+363.2  HB-PCS1900 '6th Harmonic Distortion, Extreme Condition @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+365.1  HB-PCS1900 'All Other Non-Harmonic Spurious 100 kHz to 1GHz Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+366.1  HB-PCS1900 'All Other Non-Harmonic Spurious 100 kHz to 1GHz Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+367.1  HB-PCS1900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Nominal Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+367.2  HB-PCS1900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Nominal Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+368.1  HB-PCS1900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Extreme Conditions @ Prated=[]dBm' ymax_at_xrange Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+368.2  HB-PCS1900 'All Other Non-Harmonic Spurious 1GHz to 12.75 GHz Extreme Conditions @ Prated=[]dBm' yavg_at_xrange Limit  '-37.0' = -37.0   Meas = None         (                    )  NO_DATA
+369.1  HB-PCS1900 'Output Load VSWR Stability 100 kHz to 1GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+370.1  HB-PCS1900 'Output Load VSWR Stability 1GHz to 12.75 GHz, Nominal Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+371.1  HB-PCS1900 'Output Load VSWR Stability 100 kHz to 1GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-42.0' = -42.0   Meas = None         (                    )  NO_DATA
+372.1  HB-PCS1900 'Output Load VSWR Stability 1GHz to 12.75 GHz, Extreme Condition @ Prated=[]dBm' ymax_at_xrange Limit  '-36.0' = -36.0   Meas = None         (                    )  NO_DATA
+381.1  HB-PCS1900 '-400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+382.1  HB-PCS1900 '+400kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-31.0' = -31.0   Meas = None         (                    )  NO_DATA
+383.1  HB-PCS1900 '-600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+384.1  HB-PCS1900 '+600kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-34.0' = -34.0   Meas = None         (                    )  NO_DATA
+385.1  HB-PCS1900 '-1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+386.1  HB-PCS1900 '+1200kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-40.0' = -40.0   Meas = None         (                    )  NO_DATA
+387.1  HB-PCS1900 '-1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-44.0' = -44.0   Meas = None         (                    )  NO_DATA
+388.1  HB-PCS1900 '+1800kHz offset, nominal @ Prated=[]dBm'     max_ymax Limit  '-44.0' = -44.0   Meas = None         (                    )  NO_DATA
+390.1  HB-PCS1900 '-400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-27.0' = -27.0   Meas = None         (                    )  NO_DATA
+391.1  HB-PCS1900 '+400kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-27.0' = -27.0   Meas = None         (                    )  NO_DATA
+392.1  HB-PCS1900 '-600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+393.1  HB-PCS1900 '+600kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-29.0' = -29.0   Meas = None         (                    )  NO_DATA
+394.1  HB-PCS1900 '-1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = None         (                    )  NO_DATA
+395.1  HB-PCS1900 '+1200kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-32.0' = -32.0   Meas = None         (                    )  NO_DATA
+396.1  HB-PCS1900 '-1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+397.1  HB-PCS1900 '+1800kHz offset, extreme @ Prated=[]dBm'     max_ymax Limit  '-35.0' = -35.0   Meas = None         (                    )  NO_DATA
+399.1  HB-PCS1900 'Power var over Input Power @ Prated=[]dBm' ymin_at_xrange Limit   '-0.5' = -0.5    Meas = None         (                    )  NO_DATA
+399.2  HB-PCS1900 'Power var over Input Power @ Prated=[]dBm' ymax_at_xrange Limit    '0.5' = 0.5     Meas = None         (                    )  NO_DATA
+400.1  HB-PCS1900 'Power var over Vbat @ Prated=[]dBm' ymin_at_xrange Limit   '-1.1' = -1.1    Meas = None         (                    )  NO_DATA
+400.2  HB-PCS1900 'Power var over Vbat @ Prated=[]dBm' ymax_at_xrange Limit    '1.1' = 1.1     Meas = None         (                    )  NO_DATA
+401.1  HB-PCS1900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+401.2  HB-PCS1900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+401.1  HB-PCS1900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+401.2  HB-PCS1900 'Power var over Vbat (3.0V) @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+402.1  HB-PCS1900 'Power var over Temperature, High Power @ Prated=[]dBm' ymin_at_xrange Limit   '-1.0' = -1.0    Meas = None         (                    )  NO_DATA
+402.2  HB-PCS1900 'Power var over Temperature, High Power @ Prated=[]dBm' ymax_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+403.1  HB-PCS1900 'Power var over Temperature, Low Power @ Prated=[]dBm' ymin_at_xrange Limit   '-2.5' = -2.5    Meas = None         (                    )  NO_DATA
+403.2  HB-PCS1900 'Power var over Temperature, Low Power @ Prated=[]dBm' ymax_at_xrange Limit    '2.5' = 2.5     Meas = None         (                    )  NO_DATA
+404.1  HB-PCS1900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit  '-1.75' = -1.75   Meas = None         (                    )  NO_DATA
+404.2  HB-PCS1900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit   '1.75' = 1.75    Meas = None         (                    )  NO_DATA
+405.1  HB-PCS1900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-3.0' = -3.0    Meas = None         (                    )  NO_DATA
+405.2  HB-PCS1900 'Transmit Power Control Accuracy
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '3.0' = 3.0     Meas = None         (                    )  NO_DATA
+406.1  HB-PCS1900 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymin_at_xrange Limit   '-1.5' = -1.5    Meas = None         (                    )  NO_DATA
+406.2  HB-PCS1900 'Transmit Power Control Accuracy (3V)
+Vary Pout across Temp, Vbat, Pin and relate to Temp=25 degC, Vbat= 3.5V, Pin=3 dBm, frequency= 1880MHz
+Vramp kept constant from 25 deg C, 3.5 V condition @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+408.1  HB-PCS1900 'Vramp scaling over temperature and Vbatt. Vramp limiter @ Prated=[]dBm' ymin_at_xrange Limit    '1.0' = 1.0     Meas = None         (                    )  NO_DATA
+402.1             'Insertion Loss LB - Nominal @ Prated=[]dBm' yavg_at_xrange Limit    '1.1' = 1.1     Meas = None         (                    )  NO_DATA
+402.2             'Insertion Loss LB - Nominal @ Prated=[]dBm' ymax_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+403.1             'Insertion Loss LB - Extreme @ Prated=[]dBm' yavg_at_xrange Limit    '1.1' = 1.1     Meas = None         (                    )  NO_DATA
+403.2             'Insertion Loss LB - Extreme @ Prated=[]dBm' ymax_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+403.1             'Insertion Loss LB - Extreme @ Prated=[]dBm' yavg_at_xrange Limit    '1.1' = 1.1     Meas = None         (                    )  NO_DATA
+403.2             'Insertion Loss LB - Extreme @ Prated=[]dBm' ymax_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+404.1             'Insertion Loss HB - Nominal @ Prated=[]dBm' yavg_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+404.2             'Insertion Loss HB - Nominal @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+405.1             'Insertion Loss HB - Extreme @ Prated=[]dBm' yavg_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+405.2             'Insertion Loss HB - Extreme @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+405.1             'Insertion Loss HB - Extreme @ Prated=[]dBm' yavg_at_xrange Limit    '1.3' = 1.3     Meas = None         (                    )  NO_DATA
+405.2             'Insertion Loss HB - Extreme @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+407.2             'VSWR at Rx and ANT Ports LB @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+408.2             'VSWR at Rx and ANT Ports HB @ Prated=[]dBm' ymax_at_xrange Limit    '1.5' = 1.5     Meas = None         (                    )  NO_DATA
+409.1             'TX-RX Leakage LB @ Prated=[]dBm'  avg_at_xval Limit    '5.0' = 5.0     Meas = 32.9853309286 (32.836,32.985,33.198)   mgn:27.985 (2)
+409.2             'TX-RX Leakage LB @ Prated=[]dBm' ymax_at_xval Limit    '8.0' = 8.0     Meas = 33.198423    (32.836,32.985,33.198)  FAIL mgn:25.198 (2/2)
+410.1             'TX-RX Leakage HB @ Prated=[]dBm'  avg_at_xval Limit    '4.0' = 4.0     Meas = 30.1063223809 (29.990,30.106,30.187)   mgn:26.106 (2)
+410.2             'TX-RX Leakage HB @ Prated=[]dBm' ymax_at_xval Limit    '6.0' = 6.0     Meas = 30.186917071 (29.990,30.106,30.187)  FAIL mgn:24.187 (2/2)

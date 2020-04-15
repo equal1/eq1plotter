@@ -1,0 +1,19 @@
+
+1) From a PC console window run the regression scripts to verify that 
+you havn't broken anything (see regression instructions)
+
+2) - Sos checkin the latest changes to pygram_dev.py (this will auto 
+increment the version number to match the sos version number)
+   - Sos update to make sure you have the latest files in you work 
+area
+
+3) From the Linux Window type: 
+ cd  /projects/sw/release
+ relsw.py  /projects/sw/users/$USER/pygram/src/pygram_dev.py
+or
+ relsw.py  /projects/sw/users/$USER/pygram/src/pygram_dev.py V
+
+This will copy the pygram_dev.py from the users work are into the 
+release directory and renamve the version number prefix from 'dev' to 'X'
+If the 'V' parameter is provided then the 'V' version is released also. 
+
